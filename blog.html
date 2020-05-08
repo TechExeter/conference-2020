@@ -1,0 +1,49 @@
+---
+layout: default
+---
+			{% include header.html %}
+<!-- Main -->
+<div id="main" class="wrapper style1">
+    <div class="container">
+        <header class="major">
+            <h2>My <strong>Blog</strong></h2>
+            <p>Ipsum dolor feugiat aliquam tempus sed magna lorem consequat accumsan</p>
+        </header>
+    </div>
+</div>
+        <!-- Content -->
+        {% for post in site.posts %}
+        {% if forloop.first %}
+        <!-- Five -->
+				<section id="five" class="wrapper style2 special fade">
+					<div class="container">
+						<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                        {{ post.excerpt }}
+					</div>
+                    <section class="special">
+                            <ul class="actions">
+                                <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read more</a></li>
+                            </ul>
+                    </section>
+				</section>
+
+        {% else %}
+        <section id="content">
+            <div class="wrapper style1">
+                <div class="container">
+                    <h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+                    {{ post.excerpt }}
+                </div>
+                
+            </div>
+            <section class="special">
+                        <ul class="actions">
+                            <li><a href="{{ site.baseurl }}{{ post.url }}" class="button">Read more</a></li>
+                        </ul>
+                </section>
+        </section>
+        {% endif %}
+        {% endfor %}
+
+
+            {% include footer.html %}
