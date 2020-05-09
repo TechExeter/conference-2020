@@ -44,9 +44,10 @@
 			});
 
 		// Scrolly links.
-			$('.scrolly').scrolly({
-				speed: 2000
-			});
+		// - disabled, uses css now.
+		//	$('.scrolly').scrolly({
+		//		speed: 1000
+		//	});
 
 		// Dropdowns.
 			$('#nav > ul').dropotron({
