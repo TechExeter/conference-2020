@@ -3506,6 +3506,11 @@
 				#footer .copyright li a {
 					color: inherit;
 				}
+		#footer .logos {
+			display: flex;
+			justify-content: center;
+			margin-top:3em;
+		}
 
 /* XLarge */
 
@@ -4041,5 +4046,6 @@
 						margin: 0;
 						padding: 0;
 					}
+
 
 	}
