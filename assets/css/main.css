@@ -4047,5 +4047,37 @@
 						padding: 0;
 					}
 
+		.grid-3col {
+			display: grid;
+			grid-column-gap: 20px;
+			grid-row-gap: 20px;
+			grid-template-columns: auto;
 
+			.bronze {
+				order:1;
+			}
+			.silver {
+				order:2;
+			}
+			.gold {
+				order:3;
+			}
+		}
 	}
+
+
+.grid-3col {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+
+.grid-3col.no-h-gutter {
+	grid-row-gap: 0px;
+	margin-bottom:1em;
+}
+.grid-3col.no-h-gutter > div {
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}	
