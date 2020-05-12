@@ -4052,16 +4052,15 @@
 			grid-column-gap: 20px;
 			grid-row-gap: 20px;
 			grid-template-columns: auto;
-
-			.bronze {
-				order:1;
-			}
-			.silver {
-				order:2;
-			}
-			.gold {
-				order:3;
-			}
+		}
+		.grid-3col h1 { font-size: 2em; }
+		.grid-3col ul li { padding-left: 0.1em; }
+		.grid-3col ul { padding-left: 0.5em; }
+		.grid-3col .bronze h2,
+		.grid-3col .silver h2,
+		.grid-3col .gold h2
+		{ 
+			min-height: 3em !important;
 		}
 	}
 
@@ -4072,7 +4071,12 @@
 	grid-row-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
 }
-
+.grid-3col .bronze h2,
+.grid-3col .silver h2,
+.grid-3col .gold h2
+ { 
+	 min-height:2em;
+ }
 .grid-3col.no-h-gutter {
 	grid-row-gap: 0px;
 	margin-bottom:1em;
@@ -4081,3 +4085,7 @@
 	margin-bottom: 0px !important;
 	margin-top: 0px !important;
 }	
+
+#content a { 
+	font-weight:bold; 
+}
