@@ -2055,10 +2055,10 @@
 		}
 
 		body.landing:after {
-			-moz-animation: overlay-hide 1.5s ease-in forwards !important;
-			-webkit-animation: overlay-hide 1.5s ease-in forwards !important;
-			-ms-animation: overlay-hide 1.5s ease-in forwards !important;
-			animation: overlay-hide 1.5s ease-in forwards !important;
+			-moz-animation: overlay-hide 0.5s ease-in forwards !important;
+			-webkit-animation: overlay-hide 01.5s ease-in forwards !important;
+			-ms-animation: overlay-hide 0.5s ease-in forwards !important;
+			animation: overlay-hide 0.5s ease-in forwards !important;
 			background: #1c1d26;
 			content: '';
 			display: block;
