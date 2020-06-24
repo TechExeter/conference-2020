@@ -1,5 +1,4 @@
 @import url("font-awesome.min.css");
-@import url("conference.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400, 300italic,400italic");
 
 /*
@@ -3344,9 +3343,9 @@
 	}
 
 	body.landing #header {
-		background: transparent;
+		/*background: transparent;*/
 		box-shadow: none;
-		position: absolute;
+		/*position: absolute;*/
 	}
 
 /* Banner */
