@@ -14,7 +14,7 @@ twitter:
  - AntoniaRForster
 # linkedin: 
 takeaways:
- - insight into "post-pandemic tech": specifically handtracking & ultrasonic haptics
+ - insight into "post-pandemic tech" - specifically handtracking & ultrasonic haptics
  - a (pre-recorded) demo of touchless touch-screens in action
  - knowledge of other potential applications, including AR/VR
 ---

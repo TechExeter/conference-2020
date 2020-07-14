@@ -1,13 +1,13 @@
 ---
 layout: default
 title: Speakers
+permalink: /speakers.html
 page_teaser_image: https://conference.techexeter.uk/images/preview_index.jpg
 excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9th-10th September 2020.
 ---
 
 {% assign speakersSorted = site.speakers %}
 {% include header.html %}
-
 
 <div id="main" class="wrapper style1">
 <div class="container">

@@ -3,7 +3,7 @@ name: Tom Rooks
 pronoun: He/Him
 title: Technical Consultant
 company: Software Solved
-talk-title: Deep learning for object detection: A vision of the future
+talk-title: Deep learning for object detection - A vision of the future
 headshot: /images/speakers/tom_BW.jpg
 track: 
 timeslot: 

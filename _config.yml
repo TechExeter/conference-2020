@@ -25,6 +25,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: techexeter
+future: true
 
 # Build settings
 #theme: minima
@@ -36,7 +37,8 @@ markdown: kramdown
 sass:
   style: compressed
 
-permalink: /:categories/:title/
+include:
+  - _pages
 
 exclude:
   - "*.sublime-project"
@@ -64,11 +66,16 @@ keep_files:
   - .git
   - .svn
 
-include:
-  - _speakers
-  - _pages
-
 collections:
   speakers:
     output: true
-    permalink: /:collection/:name
+    permalink: /:collection/:name.html
+
+# Defaults
+defaults:
+  # _speakers
+  - scope:
+      path: ""
+      type: speakers
+    values:
+      layout: speakers
