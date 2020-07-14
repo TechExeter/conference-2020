@@ -4,7 +4,7 @@ pronoun: He/Him
 title: Software Engineer
 company: NVIDIA
 talk-title: Intro to GPU development in Python
-headshot: /assets/images/speakers/jacob_BW.jpg
+headshot: /images/speakers/jacob_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09

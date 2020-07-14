@@ -4,7 +4,7 @@ pronoun: He/Him
 title: Technical Lead
 company: Ghyston
 talk-title: Blazor - Client-side web apps in C# using WebAssembly
-headshot: /assets/images/speakers/charles_BW.jpg
+headshot: /images/speakers/charles_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09

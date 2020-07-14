@@ -4,7 +4,7 @@ pronoun: She/Her
 title: Founder
 company: Kraken Marketing
 talk-title: Data Driven Design and Other Analytical Marketing Magic
-headshot: /assets/images/speakers/lyssa_BW.jpg
+headshot: /images/speakers/lyssa_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-10

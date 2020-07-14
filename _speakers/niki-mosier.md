@@ -4,7 +4,7 @@ pronoun: She/Her
 title: Head of SEO
 company: Two Octobers
 talk-title: Why Web Accessibility Matters in 2020
-headshot: /assets/images/speakers/niki_BW.jpg
+headshot: /images/speakers/niki_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-10

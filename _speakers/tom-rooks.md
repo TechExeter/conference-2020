@@ -3,7 +3,7 @@ pronoun: He/Him
 title: Technical Consultant
 company: Software Solved
 talk-title: Deep learning for object detection: A vision of the future
-headshot: /assets/images/speakers/tom_BW.jpg
+headshot: /images/speakers/tom_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09

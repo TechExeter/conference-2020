@@ -4,7 +4,7 @@ pronoun: He/Him
 title: UX Designer 
 company: Bluefruit Software
 talk-title: I'm excited about setting a compelling vision for what I'm working on
-headshot: /assets/images/speakers/dan_BW.jpg
+headshot: /images/speakers/dan_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-10

@@ -4,7 +4,7 @@ pronoun: She/Her
 title: Google PPC Expert  
 company: Launch Online
 talk-title: Google Ads in 2020 & Beyond
-headshot: /assets/images/speakers/jaye_BW.jpg
+headshot: /images/speakers/jaye_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-10

@@ -4,7 +4,7 @@ pronoun: She/Her
 title: Unity Games Developer 
 company: Ultraleap
 talk-title: Touch-Free - Innovation in a Post-Pandemic World
-headshot: /assets/images/speakers/antonia_BW.jpg
+headshot: /images/speakers/antonia_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09

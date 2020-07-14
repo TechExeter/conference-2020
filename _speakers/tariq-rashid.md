@@ -3,7 +3,7 @@ pronoun: He/Him
 title: Founder
 company: Digital Dynamics
 talk-title: Safe, Responsible and Ethical AI
-headshot: /assets/images/speakers/tariq_BW.jpg
+headshot: /images/speakers/tariq_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09

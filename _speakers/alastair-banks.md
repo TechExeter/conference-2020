@@ -4,7 +4,7 @@ pronoun: He/Him
 title: Co-founder
 company: Optix Solutions
 talk-title: The Importance of Personal Branding for Building your Sales Pipeline
-headshot: /assets/images/speakers/alastair_BW.jpg
+headshot: /images/speakers/alastair_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-10

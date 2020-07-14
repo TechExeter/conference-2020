@@ -4,7 +4,7 @@ pronoun: He/Him
 title: Freelance web developer & writer
 company: OptimalWorks Ltd (freelance)
 talk-title: Seeing the light - Docker for Web Developers
-headshot: /assets/images/speakers/craig_BW.jpg
+headshot: /images/speakers/craig_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09
