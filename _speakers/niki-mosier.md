@@ -1,3 +1,4 @@
+---
 name: Niki Mosier
 pronoun: She/Her
 title: Head of SEO
@@ -6,7 +7,7 @@ talk-title: Why Web Accessibility Matters in 2020
 headshot: /assets/images/speakers/niki_BW.jpg
 track: 
 timeslot: 
-date: 10
+date: 2020-09-10
 type: 
 level: 1
 twitter:

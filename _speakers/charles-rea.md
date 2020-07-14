@@ -1,3 +1,4 @@
+---
 name: Charles Rea   
 pronoun: He/Him
 title: Technical Lead
@@ -6,7 +7,7 @@ talk-title: Blazor: Client-side web apps in C# using WebAssembly
 headshot: /assets/images/speakers/charles_BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: 
 level: 1
 twitter:

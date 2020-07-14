@@ -6,7 +6,7 @@ talk-title:
 headshot: /assets/images/speakers/jacob_BW.jpg
 track: 
 timeslot: 
-date: 10
+date: 2020-09-10
 type: 
 level: 
 twitter:

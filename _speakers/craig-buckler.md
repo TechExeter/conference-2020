@@ -1,3 +1,4 @@
+---
 name: Craig Buckler
 pronoun: He/Him
 title: Freelance web developer & writer
@@ -6,7 +7,7 @@ talk-title: Seeing the light: Docker for Web Developers
 headshot: /assets/images/speakers/craig_BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: Talk
 level: 1
 twitter:

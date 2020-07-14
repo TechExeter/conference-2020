@@ -1,3 +1,4 @@
+---
 name: Sabrina Bandel
 pronoun: She/Her
 title: SEO Executive
@@ -6,7 +7,7 @@ talk-title: Creating A Strategy to Win Long-Tail Queries
 headshot: /assets/images/speakers/jacob_BW.jpg
 track: 
 timeslot: 
-date: 10
+date: 2020-09-10
 type: 
 level: 2
 twitter:

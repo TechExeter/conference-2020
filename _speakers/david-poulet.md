@@ -1,12 +1,13 @@
+---
 name: David Poulet
 pronoun: He/Him
 title: Cloud Solution Architect
 company: Microsoft
-talk-title: We Can Recognise You Wholesale: or Democratising Computer Vision with Pluggable AI Services in Azure
-headshot: /assets/images/headshots/head-achim-brucker.jpg
+talk-title: We Can Recognise You Wholesale - or Democratising Computer Vision with Pluggable AI Services in Azure
+headshot: /assets/images/speakers/davidp_ BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: Talk
 level: 2
 twitter:
@@ -26,4 +27,5 @@ the demo gods are smiling I'll demonstrate a few fun things you can do with just
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>David started out writing UNIX drivers in C and ended up twenty years later helping deliver the dream of cloud-native everything for Microsoft. He helps people design and build stuff in Azure, from big data to microservices, with a focus on open-source technology stacks.</p>
+<p>David started out writing UNIX drivers in C and ended up twenty years later helping deliver the dream of cloud-native everything for Microsoft. 
+He helps people design and build stuff in Azure, from big data to microservices, with a focus on open-source technology stacks.</p>

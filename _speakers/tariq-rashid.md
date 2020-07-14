@@ -6,7 +6,7 @@ talk-title: Safe, Responsible and Ethical AI
 headshot: /assets/images/speakers/tariq_BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: Talk
 level: 1
 twitter:

@@ -7,7 +7,7 @@ talk-title: The Importance of Personal Branding for Building your Sales Pipeline
 headshot: /assets/images/speakers/alastair_BW.jpg
 track: 
 timeslot: 
-date: 10
+date: 2020-09-10
 type: 
 level: 1
 twitter:

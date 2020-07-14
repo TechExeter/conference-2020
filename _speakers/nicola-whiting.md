@@ -1,3 +1,4 @@
+---
 name: 
 pronoun: 
 title: 
@@ -6,7 +7,7 @@ talk-title:
 headshot: /assets/images/speakers/jacob_BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: 
 level: 
 twitter:

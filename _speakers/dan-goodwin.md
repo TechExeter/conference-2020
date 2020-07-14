@@ -1,12 +1,13 @@
+---
 name: Dan Goodwin
 pronoun: He/Him
 title: UX Designer 
 company: Bluefruit Software
-talk-title: "I'm excited about setting a compelling vision for what I'm working on"
+talk-title: I'm excited about setting a compelling vision for what I'm working on
 headshot: /assets/images/speakers/dan_BW.jpg
 track: 
 timeslot: 
-date: 10
+date: 2020-09-10
 type: 
 level: 1
 twitter:

@@ -1,3 +1,4 @@
+---
 name: Antonia Forster
 pronoun: She/Her
 title: Unity Games Developer 
@@ -6,7 +7,7 @@ talk-title: Touch-Free: Innovation in a Post-Pandemic World
 headshot: /assets/images/speakers/antonia_BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: 
 level: 1
 twitter:

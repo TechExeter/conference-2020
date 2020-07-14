@@ -7,7 +7,7 @@ talk-title: Deep learning for object detection - A vision of the future
 headshot: /assets/images/speakers/aneeq_BW.jpg
 track: 
 timeslot: 
-date: 9
+date: 2020-09-09
 type: Talk
 level: 1
 twitter:

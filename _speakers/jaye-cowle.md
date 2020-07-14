@@ -1,3 +1,4 @@
+---
 name: Jaye Cowle
 pronoun: She/Her
 title: Google PPC Expert  
@@ -6,7 +7,7 @@ talk-title: Google Ads in 2020 & Beyond
 headshot: /assets/images/speakers/jaye_BW.jpg
 track: 
 timeslot: 
-date: 10
+date: 2020-09-10
 type: 
 level: 2
 twitter:
