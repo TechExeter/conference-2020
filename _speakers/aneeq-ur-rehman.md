@@ -1,8 +1,9 @@
+---
 name: Aneeq Ur Rehman
 pronoun: He/Him
 title: Data Scientist
 company: Software Solved
-talk-title: Deep learning for object detection: A vision of the future
+talk-title: Deep learning for object detection - A vision of the future
 headshot: /assets/images/speakers/aneeq_BW.jpg
 track: 
 timeslot: 
