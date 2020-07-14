@@ -4,7 +4,7 @@ pronoun: She/Her
 title: SEO Executive
 company: Neo Media World
 talk-title: Creating A Strategy to Win Long-Tail Queries
-headshot: /images/speakers/jacob_BW.jpg
+headshot: 
 track: 
 timeslot: 
 date: 2020-09-10

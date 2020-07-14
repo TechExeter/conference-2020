@@ -1,10 +1,10 @@
 ---
-name: 
+name: David Reynolds
 pronoun: 
 title: 
 company: 
 talk-title: 
-headshot: /images/speakers/jacob_BW.jpg
+headshot: 
 track: 
 timeslot: 
 date: 2020-09-09

@@ -4,7 +4,7 @@ pronoun: He/Him
 title: Cloud Solution Architect
 company: Microsoft
 talk-title: We Can Recognise You Wholesale - or Democratising Computer Vision with Pluggable AI Services in Azure
-headshot: /images/speakers/davidp_ BW.jpg
+headshot: /images/speakers/davidp_BW.jpg
 track: 
 timeslot: 
 date: 2020-09-09

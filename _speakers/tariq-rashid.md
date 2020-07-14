@@ -1,3 +1,4 @@
+---
 name: Tariq Rashid
 pronoun: He/Him
 title: Founder
