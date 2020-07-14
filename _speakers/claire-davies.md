@@ -3,7 +3,7 @@ name: Claire Davies
 pronoun: She/Her
 title: Research Fellow
 company: University of Exeter
-talk-title: Looking where we cannot see: Using infrared light to reveal the secrets of planet formation
+talk-title: Looking where we cannot see - Using infrared light to reveal the secrets of planet formation
 headshot: /assets/images/speakers/claire_BW.jpg
 track: 
 timeslot: 

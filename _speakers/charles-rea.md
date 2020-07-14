@@ -3,7 +3,7 @@ name: Charles Rea
 pronoun: He/Him
 title: Technical Lead
 company: Ghyston
-talk-title: Blazor: Client-side web apps in C# using WebAssembly
+talk-title: Blazor - Client-side web apps in C# using WebAssembly
 headshot: /assets/images/speakers/charles_BW.jpg
 track: 
 timeslot: 

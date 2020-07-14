@@ -3,7 +3,7 @@ name: Antonia Forster
 pronoun: She/Her
 title: Unity Games Developer 
 company: Ultraleap
-talk-title: Touch-Free: Innovation in a Post-Pandemic World
+talk-title: Touch-Free - Innovation in a Post-Pandemic World
 headshot: /assets/images/speakers/antonia_BW.jpg
 track: 
 timeslot: 
