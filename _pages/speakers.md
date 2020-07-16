@@ -6,7 +6,7 @@ page_teaser_image: https://conference.techexeter.uk/images/preview_index.jpg
 excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9th-10th September 2020.
 ---
 
-{% assign speakersSorted = site.speakers %}
+{% assign speakersSorted = site.speakers | sort:"headshot" | reverse %}
 {% include header.html %}
 
 <div id="main" class="wrapper style1">
@@ -16,21 +16,22 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
 
   <h2>Keynote</h2>
   {% for speaker in speakersSorted %}
-    {% if speaker.name == "Andi Hudson" %}
+    {% if speaker.name == "Nicola Whiting" %}
     <div class="grid-flex">
       <div class="speaker">
-        <a href="{{ speaker.url }}"><img class=" circle" src="{{speaker.headshot}}"/></a>
+        <a href="{{ speaker.url }}"><img class="circle" src="{{speaker.headshot}}"/></a>
         <h2>{{ speaker.name }}</h2>
-        <p><strong>{{ speaker.title }}</strong> {% if speaker.company %}  at {{ speaker.company }} {% endif %}</p>
+        <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %}  at {{ speaker.company }} {% endif %}</p>
       </div>
     </div>
     {% endif %}
   {% endfor %}
 
-  <h2>Track Hosts</h2>
+  <!--
+  <h2>Online Hosts</h2>
   <div class="grid-flex">
   {% for speaker in speakersSorted %}
-    {% if speaker.type == "Track Host" %}
+    {% if speaker.type == "Host" %}
       <div class="speaker">
         <a href="{{ speaker.url }}"><img class=" circle" src="{{speaker.headshot}}"/></a>
         <h2>{{ speaker.name }}</h2>
@@ -39,23 +40,27 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
     {% endif %}
   {% endfor %}
   </div>
+  -->
 
   <h2>Speakers</h2>
-
   <div class="grid-flex">
   {% for speaker in speakersSorted %}
-  {% if speaker.name <>"Andi Hudson" and speaker.type <> "Track Host" %}
+  {% if speaker.name <>"Nicola Whiting" and speaker.type <> "Track Host" %}
     <div class="speaker">
+      {% if speaker.headshot %} 
       <a href="{{ speaker.url }}"><img class=" circle" src="{{speaker.headshot}}"/></a>
+      {% else %}
+      <img class=" circle" src="/images/pic01.jpg"/>
+      {% endif %}
       <h2>{{ speaker.name }}</h2>
-      <p><strong>{{ speaker.title }}</strong> {% if speaker.company %}  at {{ speaker.company }} {% endif %}</p>
+      <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %}  at {{ speaker.company }} {% endif %}</p>
     </div>
     {% endif %}
   {% endfor %}
   </div>
 
 </div>
-
+<!--
 <h2>Speaker topics by tag:</h2>
 {% assign alldocs = site.documents  %}	
 {% assign grouptag =  alldocs | map: 'tags' | join: ','  | split: ','  | group_by: tag %}
@@ -69,6 +74,6 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
 {%- endfor -%}
 </ul>
 {%- endfor -%}
-
+-->
 </div>
 </div>

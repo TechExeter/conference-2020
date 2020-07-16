@@ -2,9 +2,18 @@
 layout: default
 ---
 {% assign seo_title = page.name %}
-<div id="main" role="main" class="speaker-page">
+{% assign day = page.date | date: '%d' %}
 
-  <div class="sidebar nosticky">
+{% include header.html %}
+
+<div id="main" role="main" class="wrapper style1 speaker-page">
+  
+  {% include speaker_top.html %}
+
+  <div class="container">
+
+  <div class="row 150%">
+    <div class="4u 12u$(medium) sidebar">
 
     <img src="{{ page.headshot }}" alt="{{ page.name }}">
     <h2 id="name" class="page__title" itemprop="headline">{{ page.name | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
@@ -15,14 +24,14 @@ layout: default
     {% if page.twitter %}
     <div>
     {% for twitter_handle in page.twitter %}
-      <a class="twitter" style="display:block;" href="https://twitter.com/{{ twitter_handle }}" target="_blank" rel="nofollow noreferrer"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i> {{ twitter_handle }}</a>
+      <a class="twitter" href="https://twitter.com/{{ twitter_handle }}" target="_blank" rel="nofollow noreferrer"><i class="icon fa-twitter" aria-hidden="true"></i> {{ twitter_handle }}</a>
     {% endfor %}
     </div>
     {% endif %}
     {% if page.linkedin %}
     <div>
     {% for linkedin in page.linkedin %}
-      <a class="linkedin" href="https://linkedin.com/in/{{ linkedin }}" target="_blank" rel="nofollow noreferrer"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i> {{ linkedin }}</a>
+      <a class="linkedin" href="https://linkedin.com/in/{{ linkedin }}" target="_blank" rel="nofollow noreferrer"><i class="icon fa-linkedin" aria-hidden="true"></i> {{ linkedin }}</a>
     {% endfor %}
     </div>
     {% endif %}
@@ -49,6 +58,7 @@ layout: default
     {% endif %}
     </div>
 
+  <div class="8u$ 12u$(medium)">
 
   <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
     {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
@@ -56,28 +66,28 @@ layout: default
     {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
     {% if page.last_modified_at %}<meta itemprop="dateModified" content="{{ page.last_modified_at | date: "%B %d, %Y" }}">{% endif %}
 
-    <div class="page__inner-wrap">
-      <section class="page__content" itemprop="text">
-        {% unless page.header.overlay_color or page.header.overlay_image %}
+    <div>
+      <section>
 
-        <div class="align-with-pic">
+        <div>
           <table>
+            <tr>
+              <td>Date: {{ page.date | date_to_long_string: "ordinal" }}</td>
+              <td><strong>{% if day == "09" %} TechExeter {% else %} Digital Exeter {% endif %}</strong></td>
+            </tr>
               <tr>
-                <td>Track: <a href="/schedule#track_{{ page.track }}">{{ page.track }}
+                <td>Track: <a href="/schedule#track_{{ page.track }}">{{ page.track }} (tba)
                 {% if page.track == 1 %}
-                (TECH)
+                (MAIN STAGE)
                 {% endif %}
                 {% if page.track == 2 %}
-                (HACK)
-                {% endif %}
-                {% if page.track == 3 %}
-                (DEVELOP)
+                (SESSIONS)
                 {% endif %}
               </a></td>
-                <td>{{ page.type }}</td>
+                <td>Type of session: {{ page.type }}</td>
               </tr>
               <tr>
-                <td>Start Time: <a href="/schedule#time_{{ page.timeslot | replace: ".", ""  | replace: ":", "" }}">{{ page.timeslot }}</a></td>
+                <td>Start Time: <a href="/schedule#time_{{ page.timeslot | replace: ".", ""  | replace: ":", "" }}">{{ page.timeslot }} (tba)</a></td>
                 <td>
                     {% if page.level == 1 %}
                     Level: No prior knowledge / entry-level
@@ -90,11 +100,10 @@ layout: default
                     {% endif %}</td>
               </tr>
             </table>
-          {% endunless %}
         </div>
         <header>
-            {% if page.talk-title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.talk-title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-          </header>
+          {% if page.talk-title %}<h1 id="page-title" class="page__title" itemprop="headline">{{ page.talk-title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
+        </header>
         {{ content }}
         </section>
 
@@ -108,7 +117,34 @@ layout: default
         {% endif %}
       </footer>
 
-      <a href="/speakers" class="btn btn--primary" style="margin:1em 0px;">All speakers</a>
+      {% capture the_collection %}{{ page.collection }}{% endcapture %}
+
+      {% if page.collection %}
+        {% assign document = site[the_collection] %}
+      {% endif %}
+      
+      {% for links in document %}
+        {% if links.name == page.name %}
+          {% unless forloop.first %}
+            {% assign prevurl = prev.url %}
+            {% assign prevtitle = prev.name %}
+          {% endunless %}
+          {% unless forloop.last %}
+            {% assign next = document[forloop.index] %}
+            {% assign nexttitle = next.name %}
+            {% assign nexturl = next.url %}
+          {% endunless %}
+        {% endif %}
+        {% assign prev = links %}
+      {% endfor %}
+      
+      <ul class="actions" style="margin:1em 0px;">
+        {% if prevurl %}<li><a href="{{ prevurl }}" class="button small">&laquo; {{ prevtitle }}</a></li>{% endif %}
+        <li><a href="/speakers.html" class="button small">All speakers</a></li>
+        {% if nexturl %}<li><a href="{{ nexturl }}" class="button small">{{ nexttitle }} &raquo;</a></li>{% endif %}
+      </ul>
+      
+
 
     </div>
 
@@ -116,5 +152,7 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
+</div>
+</div>
 
 </div>

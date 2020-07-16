@@ -7,7 +7,7 @@
 
 
 .speakers {
-    background: url(/images/background-colourful-tall.jpg);
+    background: url(/images/pic03.jpg);
     background-repeat: repeat;
     background-size: auto;
     background-size: cover;
@@ -48,6 +48,7 @@
         border-radius: 50%;
         max-width: 250px;
         background: #fff;
+        transition: all .15s ease-out;
         &:hover {
             box-shadow:0 0 10px rgba(0,0,0,.5) !important;
             border-width:0px;
@@ -60,5 +61,44 @@
     }
     p {
         text-align:center;
+    }
+}
+
+
+.speaker-page {
+
+    padding-top:4em; 
+    .speaker-top { 
+        padding:0.5em;
+        margin-bottom:1em;
+    }
+
+    .sidebar {
+        text-align:center;
+        img {
+            display:block;
+            margin:auto;
+            max-width:250px;
+            border: 7px solid #fff;
+            border-radius: 50%;
+            max-width: 80%;
+            background: #fff;
+        }    
+        h2 {
+            display:inline-block;
+            margin-top:0.5em;
+            background-color:#e44c65;
+            padding: 0.25em 0.5em;
+        }
+
+    }
+    
+    h1 {
+        font-size:3rem;
+        background-color:#e44c65;
+        padding: 0.5em 0.25em;
+    }
+    h3 {
+        font-size:1.5rem;
     }
 }
