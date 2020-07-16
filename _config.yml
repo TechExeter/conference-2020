@@ -70,6 +70,8 @@ collections:
   speakers:
     output: true
     permalink: /:collection/:name.html
+  sponsors:
+    output: false
 
 # Defaults
 defaults:

@@ -14,7 +14,7 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
 
 <div class="speakers">
 
-  <h2>Keynote</h2>
+  <h2>Keynote Speaker</h2>
   {% for speaker in speakersSorted %}
     {% if speaker.name == "Nicola Whiting" %}
     <div class="grid-flex">
