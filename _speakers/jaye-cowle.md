@@ -14,9 +14,9 @@ twitter:
  - agoogleguru
 # linkedin: 
 takeaways:
- - things to action 
- - insight
- - knowledge  
+ - the direction Google Ads is going in and how advertisers should change what they are doing to reflect it
+ - the opportunities that many advertisers are missing out on with Google Ads
+ - Q&A to troubleshoot some real life examples of changes within Google Ads
 ---
 
 <p>A round up of the biggest changes to Google Ads in the last 12 months, the good the bad and the ugly. 

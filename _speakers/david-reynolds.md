@@ -1,15 +1,15 @@
 ---
 name: David Reynolds
-pronoun: 
-title: 
-company: 
-talk-title: 
+pronoun: He/Him
+title: Creative Director
+company: Realm Pictures
+talk-title: Real Life Gaming - how we created Real Life Hitman
 headshot: 
 track: 
 timeslot: 
 date: 2020-09-09
 type: 
-level: 
+level: 1
 twitter:
  - 
 # linkedin: 
@@ -19,9 +19,9 @@ takeaways:
  - 
 ---
 
-<p></p>
+<p>A walkthrough of our developments in real life gaming, from the first Real Life First Person Shooter viral, through Real Life Hitman, Real Life RPG, and even a cancelled TV-show… We'll talk tech, game design, ideation, and challenges.</p>
 
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p></p>
+<p> Creator that explores interactive experiences, specifically blurring the lines between film and game.</p>

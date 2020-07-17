@@ -1,9 +1,10 @@
 ---
+published: false
 name: Antonia Forster
 pronoun: She/Her
 title: Unity Games Developer 
 company: Ultraleap
-talk-title: Touch-Free - Innovation in a Post-Pandemic World
+talk-title: Touch Less - Innovating in a Post-Pandemic World
 headshot: /images/speakers/antonia_BW.jpg
 track: 
 timeslot: 
@@ -19,7 +20,7 @@ takeaways:
  - knowledge of other potential applications, including AR/VR
 ---
 
-<p>COVID-19 has transformed our lives, and we are more aware than ever of hygiene in public spaces. But touch-screens are still a ubiquitous part of the digital-out-of-home experience: from hospital kiosks and airports, to supermarkets and ATMs. Could there be a better solution? Ultraleap are innovating to create Touch-Free, a system of completely contactless touch-screens that allow users to feel and press buttons in midair. Antonia will be speaking about her work on touch-free technology, the challenges of designing a completely new kind of interface, and her hopes for its future application - including bringing the sense of touch into VR/AR experiences.</p>
+<p>COVID-19 has transformed our lives, and we are more aware than ever of hygiene in public spaces. But touch-screens are still a ubiquitous part of the digital-out-of-home experience: from hospital kiosks and airports, to supermarkets and ATMs. Could there be a better solution? Ultraleap are innovating to create a system of completely contactless touch-screens that allow users to feel and press buttons in midair. Antonia will be speaking about her work on touch-free technology, the challenges of designing a completely new kind of interface, and her hopes for its future application - including bringing the sense of touch into VR/AR experiences.</p>
 
 {% include speakers-takeaways.html %}
 
