@@ -1,5 +1,5 @@
 ---
-name: Sawson Khuri
+name: Sawsan Khuri
 pronoun: She/Her
 title: Director
 company: Collaborative Capacities

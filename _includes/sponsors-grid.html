@@ -1,0 +1,23 @@
+{% assign goldSponsors = site.sponsors | where: 'type', 'gold' %}
+{% assign silverSponsors = site.sponsors | where: 'type', 'silver' %}
+{% assign bronzeSponsors = site.sponsors | where: 'type', 'bronze' %}
+
+<div class="sponsors-mixed">
+    {% for sponsor in goldSponsors %}
+    <section class="gold">
+        <a href="{{ sponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/images/{{ sponsor.img }}" alt="Logo for {{ sponsor.name }}"></span></a>
+    </section>
+    {% endfor %}
+
+    {% for sponsor in silverSponsors %}
+    <section class="silver">
+        <a href="{{ sponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/images/{{ sponsor.img }}" alt="Logo for {{ sponsor.name }}"></span></a>
+    </section>
+    {% endfor %}
+
+    {% for sponsor in bronzeSponsors %}
+    <section class="bronze">
+        <a href="{{ sponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/images/{{ sponsor.img }}" alt="Logo for {{ sponsor.name }}"></span></a>
+    </section>
+    {% endfor %}
+</div>
