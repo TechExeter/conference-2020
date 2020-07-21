@@ -23,6 +23,10 @@
         flex-wrap: wrap;
         align-content: stretch;
         justify-content: space-evenly;
+        .speaker {
+            flex-basis: 25%;
+        }
+
     }
 
     > h2 {
@@ -101,4 +105,60 @@
     h3 {
         font-size:1.5rem;
     }
+}
+
+
+.sponsors.gold,
+.sponsors.silver, 
+.sponsors.bronze {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sponsors.gold { 
+    section {
+        flex-basis:50%;
+        padding:5px;
+    }
+}
+.sponsors.silver { 
+    section {
+        flex-basis:33%;
+        flex-shrink: 0;
+        padding:5px;
+    }
+}
+.sponsors.bronze { 
+    section {
+        flex-basis:25%;
+        flex-shrink: 0;
+        padding:5px;
+    }
+}
+
+.sponsors a {
+    border:none;
+}
+
+@media screen and (max-width: 736px) {
+    .sponsors.gold { 
+        section {
+            flex-basis:100%;
+            padding:5px;
+        }
+    }
+    .sponsors.silver { 
+        section {
+            flex-basis:50%;
+            padding:5px;
+        }
+    }
+    .sponsors.bronze { 
+        section {
+            flex-basis:33%;
+            padding:5px;
+        }
+    }
+    
 }

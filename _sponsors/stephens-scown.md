@@ -1,5 +1,5 @@
 ---
-name: Stephens & Scown
+name: Stephens Scown
 img: sponsor_stephensscown_white.png
 type: bronze
 externalUrl: https://www.stephens-scown.co.uk/

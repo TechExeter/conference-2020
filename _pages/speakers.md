@@ -12,16 +12,19 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
 <div id="main" class="wrapper style1">
 <div class="container">
 
+<pre><code>Note: Speaker information is preliminary and subject to change. Last updated: 21st July</code></pre>
+
+
 <div class="speakers">
 
-  <h2>Keynote Speaker</h2>
+  <h2>Keynote</h2>
   {% for speaker in speakersSorted %}
     {% if speaker.name == "Nicola Whiting" %}
     <div class="grid-flex">
       <div class="speaker">
         <a href="{{ speaker.url }}"><img class="circle" src="{{speaker.headshot}}"/></a>
         <h2>{{ speaker.name }}</h2>
-        <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %}  at {{ speaker.company }} {% endif %}</p>
+        <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %} <br/>  {{ speaker.company }} {% endif %}</p>
       </div>
     </div>
     {% endif %}
@@ -46,15 +49,13 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
   <div class="grid-flex">
   {% for speaker in speakersSorted %}
   {% if speaker.name <>"Nicola Whiting" and speaker.type <> "Track Host" %}
+    {% if speaker.headshot %} 
     <div class="speaker">
-      {% if speaker.headshot %} 
       <a href="{{ speaker.url }}"><img class=" circle" src="{{speaker.headshot}}"/></a>
-      {% else %}
-      <img class=" circle" src="/images/pic01.jpg"/>
-      {% endif %}
       <h2>{{ speaker.name }}</h2>
-      <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %}  at {{ speaker.company }} {% endif %}</p>
+      <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %}  <br/>  {{ speaker.company }} {% endif %}</p>
     </div>
+    {% endif %}
     {% endif %}
   {% endfor %}
   </div>

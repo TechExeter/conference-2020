@@ -111,6 +111,9 @@ layout: default
                 {% if page.talk-title %}<h1 id="page-title" class="page__title" itemprop="headline">
                   {{ page.talk-title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
               </header>
+
+              <pre><code>Note: Speaker information is preliminary and subject to change</code></pre>
+
               {{ content }}
             </section>
 
