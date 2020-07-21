@@ -2,7 +2,7 @@
 name: Saffron Hill
 pronoun: She/Her
 title: Project officer
-company: tba
+company: 
 talk-title: Ethics of Artificial Intelligence
 headshot: /images/speakers/saffron_BW.jpg
 track: 
@@ -11,7 +11,7 @@ date: 2020-09-10
 type: 
 level: 1
 twitter:
- - tba
+ - 
 # linkedin: 
 takeaways:
  - understanding of ethics

@@ -1,9 +1,9 @@
 ---
 name: Darren Hunt
-pronoun: 
-title: 
+pronoun:
+title: tba
 company: 
-talk-title: 
+talk-title: tba
 headshot: 
 track: 
 timeslot: 

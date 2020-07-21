@@ -1,9 +1,9 @@
 ---
 name: Robin Mudge
 pronoun: 
-title: 
+title: tba
 company: 
-talk-title: 
+talk-title: tba
 headshot: 
 track: 
 timeslot: 
