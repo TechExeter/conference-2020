@@ -1,0 +1,7 @@
+{% assign randomSponsor = site.sponsors | sample %}
+Conference Sponsored By:
+<a href="{{ randomSponsor.externalUrl }}" target="_blank"><span class="image fit"><img src="/images/{{ randomSponsor.img }}"></span></a>
+
+<h2>{{ randomSponsor.name }}</h2>
+<p>{{ randomSponsor.text }} </p>
+<a href="{{ randomSponsor.externalUrl }}" target="_blank" class="button small">Find out more</a>
