@@ -1,9 +1,9 @@
 ---
 name: Craig Buckler
 pronoun: He/Him
-title: Freelance web developer & writer
-company: OptimalWorks Ltd (freelance)
-talk-title: Seeing the light - Docker for Web Developers
+title: Web developer & tech writer
+company: Freelance
+talk-title: A first look at Deno
 headshot: /images/speakers/craig_BW.jpg
 track: 
 timeslot: 
@@ -14,19 +14,17 @@ twitter:
  - craigbuckler
 # linkedin: 
 takeaways:
- - concise introduction to Docker
- - undertand how Docker can help web developers
- - watch a Docker demonstration, e.g. launch a WordPress environment in seconds
+ - a brief overview of Node.js
+ - whether Deno is an improvement
+ - which platform should developers choose
 ---
 
-<p>Docker is often shunned by web developers. It's considered too technical, unnecessary, or something for DevOps experts only. Tutorials can 
-be impenetrable and rarely explain how to use Docker during development.It need not be that way. Knowing the basics will revolutionize your web 
-development process on Windows, macOS, or Linux. Application dependencies such as servers and databases can be launched in seconds. You can 
-use your existing editor and tools without polluting your development PC.</p>
+<p>Deno is another new cross-platform runtime for JavaScript. It's similar to Node.js, was created by the same developer, and offers some interesting improvements.
+In this talk, Craig introduces both platforms, examines the key differences, and discusses the options for existing Node.js developers. We'll also consider whether Oden would have been a cooler name!</p>
 
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>Craig started out writing UNIX drivers in C and ended up twenty years later helping deliver the dream of cloud-native everything for Microsoft. 
-Craig helps people design and build stuff in Azure, from big data to microservices, with a focus on open-source technology stacks.
-</p>
+<p>Craig is a freelance developer, author, course trainer, and speaker who's been working on the web for almost three decades.
+He's consulted for many companies, authored some books, delivered several video courses, and written a ridiculous number or tutorials for SitePoint and other sites.
+For the past few years, he's been banging on about web tools and performance to anyone who will listen.</p>
