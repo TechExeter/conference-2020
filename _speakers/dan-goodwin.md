@@ -15,7 +15,7 @@ twitter:
 # linkedin: 
 takeaways:
  - the value of designing for outcomes rather than outputs and what that means for setting a vision
- - the three things we need to get across when we're setting a vision: the context, the outcomes which a solution brings, how we know when those outcomes have been achieved
+ - the three things we need to get across when we're setting a vision - the context, the outcomes which a solution brings, how we know when those outcomes have been achieved
  - ideas for creative ways to set a vision which engage a team and start and keep them working towards it
 ---
 
