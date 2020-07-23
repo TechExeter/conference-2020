@@ -3,7 +3,7 @@ name: Nicola Whiting
 pronoun: She/Her
 title: Chief Strategy Officer
 company: Titania LTD
-talk-title: TBA
+talk-title: Following your Vision, Beating Imposter Syndrome and Living your Dream Life
 headshot: /images/speakers/nicola_BW.jpg
 track: 
 timeslot: 
