@@ -27,4 +27,4 @@ Numba and also touch on a suite of Python Data Science tools called RAPIDS.</p>
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>Jacob is in charge of Cloud, infrastructure and deployments for Dask and RAPIDS at NVIDIA. He is also one of the leaders at TechExeter.</p>
+<p>Jacob works on Cloud, infrastructure and deployments for Dask and RAPIDS at NVIDIA. He is also one of the leaders at TechExeter.</p>
