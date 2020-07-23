@@ -12,7 +12,7 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
 <div id="main" class="wrapper style1">
 <div class="container">
 
-<pre><code>Note: Speaker information is preliminary and subject to change. Last updated: 21st July</code></pre>
+<pre><code>Note: Speaker information is preliminary and subject to change. Last updated: 23rd July</code></pre>
 
 
 <div class="speakers">
