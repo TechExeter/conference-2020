@@ -11,7 +11,7 @@ date: 2020-09-10
 type: 
 level: 1
 twitter:
- - SawsonKhuri
+ - sawsankhuri
 # linkedin: 
 takeaways:
  - what is data visualisation 

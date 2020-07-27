@@ -11,7 +11,7 @@ date: 2020-09-10
 type: 
 level: 1
 twitter:
- - 
+ - SaffronHill20
 # linkedin: 
 takeaways:
  - understanding of ethics
