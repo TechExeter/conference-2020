@@ -8,6 +8,7 @@ headshot: /images/speakers/claire_BW.jpg
 track: 2
 timeslot: "10:30"
 date: 2020-09-09
+day: weds
 type: 
 level: 1 
 twitter:

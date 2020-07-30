@@ -8,6 +8,7 @@ headshot: /images/speakers/nicola_BW.jpg
 track: 1
 timeslot: "09:30"
 date: 2020-09-09
+day: weds
 type: 
 level: 1
 twitter:

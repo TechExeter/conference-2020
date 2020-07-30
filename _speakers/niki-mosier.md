@@ -5,9 +5,10 @@ title: Head of SEO
 company: Two Octobers
 talk-title: Why Web Accessibility Matters in 2020
 headshot: /images/speakers/niki_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "09:30"
 date: 2020-09-10
+day: thurs
 type: 
 level: 1
 twitter:
