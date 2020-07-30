@@ -5,8 +5,8 @@ title: Research Fellow
 company: University of Exeter
 talk-title: Looking where we cannot see - Using infrared light to reveal the secrets of planet formation
 headshot: /images/speakers/claire_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "10:30"
 date: 2020-09-09
 type: 
 level: 1 

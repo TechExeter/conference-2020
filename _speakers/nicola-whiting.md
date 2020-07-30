@@ -5,8 +5,8 @@ title: Chief Strategy Officer
 company: Titania LTD
 talk-title: Following your Vision, Beating Imposter Syndrome and Living your Dream Life
 headshot: /images/speakers/nicola_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "09:30"
 date: 2020-09-09
 type: 
 level: 1

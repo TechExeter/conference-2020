@@ -5,8 +5,8 @@ title: Data Scientist
 company: Software Solved
 talk-title: Deep learning for object detection - A vision of the future
 headshot: /images/speakers/aneeq_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "10:30"
 date: 2020-09-09
 type: Talk
 level: 1
