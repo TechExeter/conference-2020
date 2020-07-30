@@ -19,7 +19,7 @@ layout: default
         <h2 id="name" class="page__title" itemprop="headline">
           {{ page.name | markdownify | remove: "<p>" | remove: "</p>" }}</h2>
         <div class="speaker-title">
-          <strong>{{ page.title }}</strong> {% if page.company %} at {{ page.company }} {% endif %}
+          <strong>{{ page.title }}</strong> {% if page.company %} {{ page.company }} {% endif %}
         </div>
 
         {% if page.twitter %}

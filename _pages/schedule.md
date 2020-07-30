@@ -148,7 +148,7 @@ header:
   </div>
   <div class="item head t2" style="grid-area: t2head;" id="track_2">
   <h2>Track 2</h2>
-  SESSIONS
+  SESSIONS AREA
   </div>
 
 </div>
@@ -184,7 +184,7 @@ header:
   </div>
   <div class="item head t2" style="grid-area: t2head;" id="track_2">
   <h2>Track 2</h2>
-  SESSIONS
+  SESSIONS AREA
   </div>
 
 </div>
