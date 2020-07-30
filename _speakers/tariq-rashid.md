@@ -5,8 +5,8 @@ title: Founder
 company: Digital Dynamics
 talk-title: Safe, Responsible and Ethical AI
 headshot: /images/speakers/tariq_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "3:30"
 date: 2020-09-09
 type: Talk
 level: 1

@@ -5,8 +5,8 @@ title: Motion Graphic Designer
 company: Freelance
 talk-title: Seeing sounds - visualising music and sonification
 headshot: /images/speakers/simon_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "3:30"
 date: 2020-09-10
 type: 
 level: 1

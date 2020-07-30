@@ -5,8 +5,8 @@ title: Software Engineer
 company: NVIDIA
 talk-title: Intro to GPU development in Python
 headshot: /images/speakers/jacob_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "1:45"
 date: 2020-09-09
 type: Talk
 level: 1

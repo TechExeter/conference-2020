@@ -5,8 +5,8 @@ title: Creative Director
 company: Realm Pictures
 talk-title: Real Life Gaming - how we created Real Life Hitman
 headshot: /images/speakers/davidr_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "4:15"
 date: 2020-09-09
 type: 
 level: 1

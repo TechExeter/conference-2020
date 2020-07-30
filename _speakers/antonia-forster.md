@@ -5,8 +5,8 @@ title: Unity Games Developer
 company: Ultraleap
 talk-title: Touchless Technology - Innovating in a Post-Pandemic World
 headshot: /images/speakers/antonia_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "12:00"
 date: 2020-09-09
 type: 
 level: 1

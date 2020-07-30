@@ -5,8 +5,8 @@ title: Head of Search Content Business
 company: Times Internet
 talk-title: tba
 headshot: /images/speakers/sharon_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "1:45"
 date: 2020-09-10
 type: 
 level: 1

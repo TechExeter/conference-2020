@@ -3,10 +3,10 @@ name: David Poulet
 pronoun: He/Him
 title: Cloud Solution Architect
 company: Microsoft
-talk-title: We Can Recognise You Wholesale - or Democratising Computer Vision with Pluggable AI Services in Azure
+talk-title: Democratising Computer Vision with Pluggable AI Services in Azure
 headshot: /images/speakers/davidp_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "1:45"
 date: 2020-09-09
 type: Talk
 level: 2
