@@ -8,6 +8,7 @@ headshot: /images/speakers/davidp_BW.jpg
 track: 1
 timeslot: "1:45"
 date: 2020-09-09
+day: weds
 type: Talk
 level: 2
 twitter:

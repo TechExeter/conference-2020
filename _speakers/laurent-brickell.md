@@ -8,7 +8,8 @@ headshot: /images/speakers/laurent_BW.jpg
 track: 2
 timeslot: "1:45"
 date: 2020-09-10
-type: 
+day: thurs
+type: Panel
 level: 1
 twitter:
  - 

@@ -9,7 +9,7 @@ track: 2
 timeslot: "10:30"
 date: 2020-09-09
 day: weds
-type: 
+type: Talk
 level: 1 
 twitter:
  - Tuffers_c

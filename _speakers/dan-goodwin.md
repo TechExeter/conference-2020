@@ -8,7 +8,8 @@ headshot: /images/speakers/dan_BW.jpg
 track: 1
 timeslot: "4:15"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - bouncingdan

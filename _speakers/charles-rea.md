@@ -8,7 +8,8 @@ headshot: /images/speakers/charles_BW.jpg
 track: 2
 timeslot: "4:15"
 date: 2020-09-09
-type: 
+day: weds
+type: Talk
 level: 1
 twitter:
  - charles_h_rea

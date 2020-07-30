@@ -8,6 +8,7 @@ headshot: /images/speakers/craig_BW.jpg
 track: 2
 timeslot: "3:00" 
 date: 2020-09-09
+day: weds
 type: Talk
 level: 1
 twitter:

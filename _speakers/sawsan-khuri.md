@@ -9,7 +9,7 @@ track: 2
 timeslot: "10:30"
 date: 2020-09-10
 day: thurs
-type: workshop
+type: Workshop
 level: 1
 twitter:
  - sawsankhuri

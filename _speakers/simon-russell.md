@@ -8,7 +8,8 @@ headshot: /images/speakers/simon_BW.jpg
 track: 2
 timeslot: "3:30"
 date: 2020-09-10
-type: 
+day: thurs
+type: Ask Me Anything
 level: 1
 twitter:
  - simonfarussell

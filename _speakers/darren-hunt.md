@@ -9,7 +9,8 @@ headshot: /images/speakers/darren_BW.jpg
 track: 2
 timeslot: "4:15"
 date: 2020-09-10
-type: 
+day: thurs
+type: Panel
 level: 1
 twitter:
  - 

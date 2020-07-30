@@ -8,7 +8,8 @@ headshot: /images/speakers/alastair_BW.jpg
 track: 1
 timeslot: "3:00"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - banksy6
