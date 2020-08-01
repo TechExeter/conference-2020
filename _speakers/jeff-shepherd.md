@@ -5,10 +5,11 @@ title: Software Engineer
 company: Met Office
 talk-title: Efficient development at scale
 headshot: /images/speakers/jeff_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "12:00"
 date: 2020-09-09
-type: 
+day: weds
+type: Talk
 level: 1
 twitter:
  - 

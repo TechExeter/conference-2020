@@ -184,3 +184,103 @@ section.bronze {
     }
     
 }
+
+
+#schedule {
+    background: rgba(39, 40, 51, 0.965);
+    .item {
+        padding:0.3em;
+        &.head {
+            color: #fff;
+            padding: 0.5em;
+
+            &.t1 {
+                // background-color:#e44c65;
+                
+                background: url(/images/track1bg.jpg);
+                background-repeat: repeat;
+                background-size: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            &.t2 {
+                //background-color:#5480f1;
+                           
+                background: url(/images/track2bg.jpg);
+                background-repeat: repeat;
+                background-size: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            &.t3 {
+                background-color:#f88e21;
+            }
+        }
+
+        &.t1 {
+            // background-color:scale-color(#e44c65,$lightness: 20%);
+            
+            background: url(/images/track1bg.jpg);
+            background-repeat: repeat;
+            background-size: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &.t2 {
+            //background-color:scale-color(#5480f1,$lightness: 20%);
+            
+            background: url(/images/track2bg.jpg);
+            background-repeat: repeat;
+            background-size: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        &.t3 {
+            background-color:scale-color(#f88e21, $lightness: 20%);
+        }
+
+        h2 {
+            margin-top:0;
+            padding-bottom: 0;
+            border-bottom: none;
+            margin:0px;
+            font-size:1.1em;
+        }
+        .speaker {
+            color:#fff;
+            text-align:left;
+            max-width:auto;
+            font-size:0.8em;
+        }
+        .type {
+            color:#e44c65;
+            font-size:0.8em;
+        }
+
+        &.time {
+            h2 {
+                font-size:1em;
+                font-weight:normal;
+                color:#888;
+                margin-top:0.08em;
+            }
+        }
+
+        &.break,
+        &.lunch {
+            /*background: #39c088;
+            color:#fff;*/
+                        
+                background: url(/images/pic04.jpg);
+                background-repeat: repeat;
+                background-size: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
+            padding:0.5em;
+            h2 {
+                margin:0px;
+            }
+        }
+
+    }
+}
