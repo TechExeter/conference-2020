@@ -6,7 +6,7 @@ title: UX Designer
 company: u.exe
 talk-title: Understanding why - How can you find out the driving factors behind your customers’ decisions?
 headshot: /images/speakers/darren_BW.jpg
-track: 2
+track: "2"
 timeslot: "16:15"
 date: 2020-09-10
 day: thurs

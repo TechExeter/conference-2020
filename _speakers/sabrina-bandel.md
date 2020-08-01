@@ -5,7 +5,7 @@ title: SEO Executive
 company: Neo Media World
 talk-title: Creating A Strategy to Win Long-Tail Queries
 headshot: /images/speakers/sabrina_BW.jpg
-track: 2
+track: "2"
 timeslot: "13:45"
 date: 2020-09-10
 day: thurs

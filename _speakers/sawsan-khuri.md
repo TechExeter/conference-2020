@@ -5,7 +5,7 @@ title: Director
 company: Collaborative Capacities
 talk-title: How data visualisation changes perception and cognition
 headshot: /images/speakers/sawson_BW.jpg
-track: 2
+track: "2"
 timeslot: "10:30"
 date: 2020-09-10
 day: thurs
