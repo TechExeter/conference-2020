@@ -6,7 +6,7 @@ company: Freelance
 talk-title: Seeing sounds - visualising music and sonification
 headshot: /images/speakers/simon_BW.jpg
 track: 2
-timeslot: "3:30"
+timeslot: "15:30"
 date: 2020-09-10
 day: thurs
 type: Ask Me Anything

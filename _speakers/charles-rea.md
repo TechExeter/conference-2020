@@ -6,7 +6,7 @@ company: Ghyston
 talk-title: Blazor - Client-side web apps in C# using WebAssembly
 headshot: /images/speakers/charles_BW.jpg
 track: 2
-timeslot: "4:15"
+timeslot: "16:15"
 date: 2020-09-09
 day: weds
 type: Talk

@@ -6,7 +6,7 @@ company: Bluefruit Software
 talk-title: I'm excited about setting a compelling vision for what I'm working on
 headshot: /images/speakers/dan_BW.jpg
 track: 1
-timeslot: "4:15"
+timeslot: "16:15"
 date: 2020-09-10
 day: thurs
 type: Talk
