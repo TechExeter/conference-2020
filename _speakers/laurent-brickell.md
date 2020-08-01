@@ -5,7 +5,7 @@ title: Technical Director
 company: Organic
 talk-title: The Future of Natural Search
 headshot: /images/speakers/laurent_BW.jpg
-track: 2
+track: "2"
 timeslot: "13:45"
 date: 2020-09-10
 day: thurs

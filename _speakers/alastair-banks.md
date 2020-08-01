@@ -5,7 +5,7 @@ title: Co-founder
 company: Optix Solutions
 talk-title: The Importance of Personal Branding for Building your Sales Pipeline
 headshot: /images/speakers/alastair_BW.jpg
-track: 1
+track: "1"
 timeslot: "15:00"
 date: 2020-09-10
 day: thurs

@@ -5,7 +5,7 @@ title: Cloud Solution Architect
 company: Microsoft
 talk-title: Democratising Computer Vision with Pluggable AI Services in Azure
 headshot: /images/speakers/davidp_BW.jpg
-track: 1
+track: "1"
 timeslot: "13:45"
 date: 2020-09-09
 day: weds

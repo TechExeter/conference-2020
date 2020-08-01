@@ -5,7 +5,7 @@ title: Project officer
 company: 
 talk-title: Ethics of Artificial Intelligence
 headshot: /images/speakers/saffron_BW.jpg
-track: 1
+track: "1"
 timeslot: "10:30"
 date: 2020-09-10
 day: thurs
