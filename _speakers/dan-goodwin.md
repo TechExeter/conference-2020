@@ -5,10 +5,11 @@ title: UX Designer
 company: Bluefruit Software
 talk-title: I'm excited about setting a compelling vision for what I'm working on
 headshot: /images/speakers/dan_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "16:15"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - bouncingdan

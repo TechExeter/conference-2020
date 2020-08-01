@@ -5,10 +5,11 @@ title: Filmmaker, video artist and Interactive TV producer
 company: 
 talk-title: OneShot Virtual reality storytelling for documentary production
 headshot: /images/speakers/robin_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "15:00"
 date: 2020-09-10
-type: 
+day: thurs
+type: Ask Me Anything
 level: 2
 twitter:
  - 

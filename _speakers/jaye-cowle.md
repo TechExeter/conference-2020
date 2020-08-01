@@ -5,10 +5,11 @@ title: Google PPC Expert
 company: Launch Online
 talk-title: Google Ads in 2020 & Beyond
 headshot: /images/speakers/jaye_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "12:00"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 2
 twitter:
  - agoogleguru

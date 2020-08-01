@@ -5,10 +5,11 @@ title: Founder
 company: Kraken Marketing
 talk-title: Data Driven Design and Other Analytical Marketing Magic
 headshot: /images/speakers/lyssa_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "13:45"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - LyssaCrump

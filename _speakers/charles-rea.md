@@ -5,10 +5,11 @@ title: Technical Lead
 company: Ghyston
 talk-title: Blazor - Client-side web apps in C# using WebAssembly
 headshot: /images/speakers/charles_BW.jpg
-track: 
-timeslot: 
+track: 2
+timeslot: "16:15"
 date: 2020-09-09
-type: 
+day: weds
+type: Talk
 level: 1
 twitter:
  - charles_h_rea

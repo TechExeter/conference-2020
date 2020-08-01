@@ -5,9 +5,10 @@ title: Technical Consultant
 company: Software Solved
 talk-title: Deep learning for object detection - A vision of the future
 headshot: /images/speakers/tom_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "10:30"
 date: 2020-09-09
+day: weds
 type: Talk
 level: 1
 twitter:
