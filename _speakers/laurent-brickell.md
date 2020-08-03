@@ -9,9 +9,8 @@ track: "2"
 timeslot: "13:45"
 date: 2020-09-10
 day: thurs
-type: Panel
+type: Lightning Talk
 level: 1
-twitter:
  - 
 # linkedin: https://www.linkedin.com/in/laurent-brickell/
 takeaways:
@@ -21,6 +20,8 @@ takeaways:
 ---
 
 <p>This session will cover how Google Search decides to rank sites and then takes a dive into the world of AI Search tooling and big search data.</p>
+
+<blockquote>After the talk, join Laurent, Sabrina and Sharon for a panel session, with questions from you, the audience!</blockquote> 
 
 {% include speakers-takeaways.html %}
 

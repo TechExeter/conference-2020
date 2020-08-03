@@ -6,10 +6,10 @@ company: Neo Media World
 talk-title: Creating A Strategy to Win Long-Tail Queries
 headshot: /images/speakers/sabrina_BW.jpg
 track: "2"
-timeslot: "13:45"
+timeslot: "13:55"
 date: 2020-09-10
 day: thurs
-type: Panel
+type: Lightning Talk
 level: 2
 twitter:
  - sabrina_bandel 
@@ -20,9 +20,11 @@ takeaways:
  - how to strategize to gain presence in the long-tail queries
 ---
 
-<p>As featured snippets and people also ask questions have become more prevalent it can be difficult to 
+<p>As featured snippets and people asking questions have become more prevalent, it can be difficult to 
 know where to begin when aiming to increase your presence in this coveted space. This presentation aims 
 to provide actionable insights to find the right opportunities and tips to capture demand.</p>
+
+<blockquote>After the talk, join Laurent, Sabrina and Sharon for a panel session, with questions from you, the audience!</blockquote> 
 
 {% include speakers-takeaways.html %}
 

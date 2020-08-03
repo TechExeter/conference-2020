@@ -1,5 +1,6 @@
 ---
 name: Aneeq Ur Rehman
+names: Aneeq Ur Rehman & Tom Rooks
 pronoun: He/Him
 title: Data Scientist
 company: Software Solved
