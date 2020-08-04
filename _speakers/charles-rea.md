@@ -23,8 +23,8 @@ takeaways:
 
 <p>Blazor is Microsoft's brand new framework for building client-side web applications. So what makes it 
 special, compared to all the other front-end frameworks out there? Blazor has a unique feature: you write 
-the code in C#, which runs in the browser using WebAssembly - with no Javascript involved!
-In this talk, we'll see how we can write applications using Blazor, and take a look at its syntax and 
+the code in C#, which runs in the browser using WebAssembly - with no Javascript involved!</p>
+<p>In this talk, we'll see how we can write applications using Blazor, and take a look at its syntax and 
 component model. We'll explore how Blazor works under the hood, and how WebAssembly is used to run .NET 
 code within the browser. We'll discuss the advantages and disadvantages of this approach, and get an 
 understanding of when it makes sense to use Blazor.

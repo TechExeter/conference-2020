@@ -1,5 +1,6 @@
 ---
 name: Tom Rooks
+names: Aneeq Ur Rehman & Tom Rooks
 pronoun: He/Him
 title: Technical Consultant
 company: Software Solved
@@ -7,6 +8,7 @@ talk-title: Deep learning for object detection - A vision of the future
 headshot: /images/speakers/tom_BW.jpg
 track: "1"
 timeslot: "10:30"
+schedule-ignore: true
 date: 2020-09-09
 day: weds
 type: Talk
@@ -19,6 +21,8 @@ takeaways:
  - knowledge of understanding requirements and key processes in a Deep Learning based custom object detection framework
  - understand how to quickly build and deploy your own custom object detector with few lines of codes and some resources for additional help
 ---
+
+<blockquote>This talk is jointly presented by <a href="/speakers/aneeq-ur-rehman.html">Aneeq</a> and <a href="/speakers/tom-rooks.html">Tom</a></blockquote>
 
 <p>In this talk, we provide an overview of deep learning-based object detection techniques. Our review begins with the revolution 
 of deep learning algorithms and how they have added value to traditional computer vision based object detection techniques. We 

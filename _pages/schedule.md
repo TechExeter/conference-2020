@@ -186,6 +186,8 @@ header:
 <div id="schedule">
 
   {% for speaker in scheduleSortedWeds %}
+  {% if speaker.schedule-ignore == true %}
+  {% else %}
   {% if speaker.type != "Track Host" and speaker.track != "Workshop" %}
     <div class="item {{ speaker.type }} t{{ speaker.track }}" style="grid-area: t{{ speaker.track }}-{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }};" {% if speaker.type == "time" %} id="weds_time_{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }}" {% endif %}>
     <div class="small-time">{{ speaker.timeslot }} </div>
@@ -200,9 +202,16 @@ header:
     {% if speaker.type != "time" and  speaker.type != "break" and speaker.type != "lunch" %}
     <div class="type"> {{ speaker.type }}</div>
     {% endif %}
-    <div class="speaker">{{ speaker.name }}</div>
+    <div class="speaker">    
+      {% if speaker.names != nil %}
+      {{ speaker.names }}
+      {% else %}
+      {{ speaker.name }}
+      {% endif %}
+    </div>
     </div>
     {% endif %}
+  {% endif %}
   {% endfor %}
 
   <div class="item head t1" style="grid-area: t1head;" id="track_1">
@@ -223,6 +232,8 @@ header:
 <div id="schedule" class="thursday">
 
   {% for speaker in scheduleSortedThurs %}
+  {% if speaker.schedule-ignore == true %}
+  {% else %}
   {% if speaker.type != "Track Host" and speaker.track != "Workshop" %}
     <div class="item {{ speaker.type }} t{{ speaker.track }}" style="grid-area: t{{ speaker.track }}-{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }};" {% if speaker.type == "time" %} id="thurs_time_{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }}" {% endif %}>
     <div class="small-time">{{ speaker.timeslot }} </div>
@@ -237,9 +248,16 @@ header:
     {% if speaker.type != "time" and  speaker.type != "break" and speaker.type != "lunch" %}
     <div class="type"> {{ speaker.type }}</div>
     {% endif %}
-    <div class="speaker">{{ speaker.name }}</div>
+    <div class="speaker">
+    {% if speaker.names != nil %}
+    {{ speaker.names }}
+    {% else %}
+    {{ speaker.name }}
+    {% endif %}
+    </div>
     </div>
     {% endif %}
+  {% endif %}
   {% endfor %}
 
   <div class="item head t1" style="grid-area: t1head;" id="track_1">

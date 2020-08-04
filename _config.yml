@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: TechExeter Conference 2020
+title: Vision 2020, TechExeter & Digital Exeter's annual conference.
 email: conference@techexeter.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Annual tech+digital conference, streaming live online September 9th & 10th 2020.
@@ -81,3 +81,4 @@ defaults:
       type: speakers
     values:
       layout: speakers
+      schedule-ignore: false
