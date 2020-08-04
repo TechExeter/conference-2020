@@ -5,10 +5,11 @@ title: Lead Designer
 company: Ghyston
 talk-title: Guess less, design better
 headshot: /images/speakers/andrew_BW.jpg
-track: 
-timeslot: 
+track: "1"
+timeslot: "12:00"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - CaptainCox

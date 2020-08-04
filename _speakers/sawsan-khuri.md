@@ -5,10 +5,11 @@ title: Director
 company: Collaborative Capacities
 talk-title: How data visualisation changes perception and cognition
 headshot: /images/speakers/sawson_BW.jpg
-track: 
-timeslot: 
+track: "2"
+timeslot: "10:30"
 date: 2020-09-10
-type: 
+day: thurs
+type: Workshop
 level: 1
 twitter:
  - sawsankhuri
@@ -19,8 +20,8 @@ takeaways:
  - how to produce responsible datavis  
 ---
 
-<p>We perceive the world around us through our senses, and these observations become cognitive knowledge once they are processed and analysed against our existing knowledge base. Recent psychology research shows that there is a very fuzzy area in between perception and cognition, and that there is room for bias causing misinterpretation at every step. This bias can arise from direct previous experience, or indirectly through cultural norms or social affiliations. The challenge for those working in the data visualisation arena is to ensure that the message conveyed by the datavis image is first, an accurate representation of the data, and second, clear and unambiguous to anyone who sees it.</p>
-<p>This interactive workshop will summarise these concepts and show examples of data visualisations that are very easy to interpret, others that are very easy to misinterpret, and provide some ideas as to what makes them so. Due to time available, we will concentrate on static images that have been produced from numerical or text data, rather than interactive graphics or film footage. Guidelines for creating responsible data visualisations that accurately match the data and convey a clear, unequivocal message will be shared.</p>
+<p>We perceive the world around us through our senses, and these observations become cognitive knowledge once they are processed and analysed against our existing knowledge base. Recent psychology research shows that there is a very fuzzy area between perception and cognition, and that there is room for bias causing misinterpretation at every step. This bias can arise from direct previous experience, or indirectly through cultural norms or social affiliations. The challenge for those working in the data visualisation arena is to ensure that the message conveyed by the datavis image is first, an accurate representation of the data, and second, clear and unambiguous to anyone who sees it.
+This interactive workshop will summarise these concepts and show examples of data visualisations that are very easy to interpret, others that are very easy to misinterpret, and provide some ideas as to what makes them so. Due to time availability, we will concentrate on static images that have been produced from numerical or text data, rather than interactive graphics or film footage. Guidelines for creating responsible data visualisations that accurately match the data and convey a clear, unequivocal message will be shared.</p>
 
 {% include speakers-takeaways.html %}
 

@@ -5,16 +5,17 @@ title: Project officer
 company: 
 talk-title: Ethics of Artificial Intelligence
 headshot: /images/speakers/saffron_BW.jpg
-track: 
-timeslot: 
+track: "1"
+timeslot: "10:30"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - SaffronHill20
 # linkedin: 
 takeaways:
- - understanding of ethics
+ - understand ethics
  - know the link between ethics and economics
  - know the link between ethics and AI 
 ---
@@ -29,4 +30,4 @@ Listen to different ethical problems AI produces and decide where you think the 
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>Saffron works for a charity, helping students get into STEM higher education, placements and careers. She studied Politics, Philosophy and Economics at the University of Exeter. Here she focussed on the crossover of the three subjects applied to the programming of Artificial Intelligence and robots. She has looked at the political and economic incentives behind the ethical programming of AI and theories on how and why AI should be programmed in certain ways</p>
+<p>Saffron works for a charity, helping students get into STEM higher education, placements and careers. She studied Politics, Philosophy and Economics at the University of Exeter. There, she focussed on the crossover of the three subjects applied to the programming of Artificial Intelligence and robots. She has looked at the political and economic incentives behind the ethical programming of AI and theories on how and why AI should be programmed in certain ways</p>

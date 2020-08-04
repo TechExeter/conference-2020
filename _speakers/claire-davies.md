@@ -5,10 +5,11 @@ title: Research Fellow
 company: University of Exeter
 talk-title: Looking where we cannot see - Using infrared light to reveal the secrets of planet formation
 headshot: /images/speakers/claire_BW.jpg
-track: 
-timeslot: 
+track: "2"
+timeslot: "10:30"
 date: 2020-09-09
-type: 
+day: weds
+type: Talk
 level: 1 
 twitter:
  - Tuffers_c
@@ -36,6 +37,8 @@ observations is analysed to better understand how planetary systems such as our 
 of Exeter, developing software and tools to obtain and analyse astronomical data. In particular, I use 
 the techniques of interferometry, photometry, spectroscopy, and scattered light/polarimetric imaging to 
 study the discs of gas and dust that exist around stars as they form. The ultimate goal is to better 
-understand how planetary systems (such as our own Solar System) formed and what is responsible for their diverse characteristics. My interest in diversity extends further: I am the founder and current chair of 
+understand how planetary systems (such as our own Solar System) formed and what is responsible for their 
+diverse characteristics. 
+My interest in diversity extends further: I am the founder and current chair of 
 PRISM Exeter (@PRISMexeter on social media), a network for LGBTQ+ individuals and their allies working and 
 studying in the local STEMM (science, tech, engineering, mathematics & medicine) sectors.</p>

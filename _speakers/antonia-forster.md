@@ -5,10 +5,11 @@ title: Unity Games Developer
 company: Ultraleap
 talk-title: Touchless Technology - Innovating in a Post-Pandemic World
 headshot: /images/speakers/antonia_BW.jpg
-track: 
-timeslot: 
+track: "1"
+timeslot: "12:00"
 date: 2020-09-09
-type: 
+day: weds
+type: Talk
 level: 1
 twitter:
  - AntoniaRForster
@@ -19,8 +20,7 @@ takeaways:
  - knowledge of other potential applications, including AR/VR
 ---
 
-<p>COVID-19 has transformed our lives, and we are now more aware than ever of hygiene in public spaces. Recent Ultraleap research showed that just 12% of consumers believed that touchscreens in public spaces are hygienic and 50% said they are unlikely to use touchscreens again. But touch screens are still a ubiquitous part of the digital-out-of-home experience: from hospital kiosks and airports, to supermarkets and ATMs. Could there be a better solution? </p>
-<p>Using hand tracking and mid-air haptics, Ultraleap is creating completely touchless interfaces that allow users interact, feel and press buttons in mid-air without touching a screen or holding a controller. Antonia Forster, Unity Game Developer at Ultraleap, will be speaking about her work on touchless technology, the challenges of designing a completely new kind of interface, and her hopes for its future application - including bringing the sense of touch into VR/AR experiences.</p>
+<p>COVID-19 has transformed our lives, and we are now more aware than ever of hygiene in public spaces. Recent Ultraleap research showed that just 12% of consumers believed that touchscreens in public spaces are hygienic and 50% said they are unlikely to use touchscreens again. But touch screens are still a ubiquitous part of the digital-out-of-home experience: from hospital kiosks and airports, to supermarkets and ATMs. Could there be a better solution? Using hand tracking and mid-air haptics, Ultraleap is creating completely touchless interfaces that allow users to interact, feel and press buttons in mid-air without touching a screen or holding a controller. Antonia Forster, Unity Game Developer at Ultraleap, will be speaking about her work on touchless technology, the challenges of designing a completely new kind of interface, and her hopes for its future application - including bringing the sense of touch into VR/AR experiences.</p>
 
 {% include speakers-takeaways.html %}
 

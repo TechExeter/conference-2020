@@ -5,10 +5,11 @@ title: UX Designer
 company: Bluefruit Software
 talk-title: I'm excited about setting a compelling vision for what I'm working on
 headshot: /images/speakers/dan_BW.jpg
-track: 
-timeslot: 
+track: "1"
+timeslot: "16:15"
 date: 2020-09-10
-type: 
+day: thurs
+type: Talk
 level: 1
 twitter:
  - bouncingdan
@@ -24,4 +25,4 @@ takeaways:
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>Dan is a human-centred designer. For over twenty years, he's been helping technical, engineering, creative, design, HR, marketing, events, cultural, and cross-disciplinary teams put users, customers, employees, people at the centre of whatever they're working on. Dan knows how to find out about users through research; how to set a vision that prioritizes user needs in the context of organizational goals; and how to work with teams to execute on that vision to create amazing products and services that deliver real value. Dan is currently working at Bluefruit Software, helping their talented engineering teams drive the quality of embedded software through user-centred design thinking.</p>
+<p>Dan is a human-centred designer. For over twenty years, he's been helping technical, engineering, creative, design, HR, marketing, events, cultural, and cross-disciplinary teams put users, customers, employees, and people at the centre of whatever they're working on. Dan knows how to find out about users through research; how to set a vision that prioritizes user needs in the context of organizational goals; and how to work with teams to execute that vision to create amazing products and services that deliver real value. Dan is currently working at Bluefruit Software, helping their talented engineering teams drive the quality of embedded software through user-centred design thinking.</p>
