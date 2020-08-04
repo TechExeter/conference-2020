@@ -6,7 +6,7 @@ company: Microsoft
 talk-title: Democratising Computer Vision with Pluggable AI Services in Azure
 headshot: /images/speakers/davidp_BW.jpg
 track: 1
-timeslot: "1:45"
+timeslot: "13:45"
 date: 2020-09-09
 day: weds
 type: Talk

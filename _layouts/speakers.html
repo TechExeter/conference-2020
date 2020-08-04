@@ -80,7 +80,7 @@ layout: default
                     <td><strong>{% if day == "09" %} TechExeter {% else %} Digital Exeter {% endif %}</strong></td>
                   </tr>
                   <tr>
-                    <td>Track: <a href="/schedule#track_{{ page.track }}">{{ page.track }} (tba)
+                    <td>Track: <a href="/schedule#track_{{ page.track }}">{{ page.track }}
                         {% if page.track == 1 %}
                         (MAIN STAGE)
                         {% endif %}
@@ -92,8 +92,8 @@ layout: default
                   </tr>
                   <tr>
                     <td>Start Time: <a
-                        href="/schedule#time_{{ page.timeslot | replace: ".", ""  | replace: ":", "" }}">{{ page.timeslot }}
-                        (tba)</a></td>
+                        href="/schedule#{{page.day}}_time_{{ page.timeslot | replace: ".", ""  | replace: ":", "" }}">{{ page.timeslot }}
+                        </a></td>
                     <td>
                       {% if page.level == 1 %}
                       Level: No prior knowledge / entry-level

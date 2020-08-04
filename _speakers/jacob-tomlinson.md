@@ -6,7 +6,7 @@ company: NVIDIA
 talk-title: Intro to GPU development in Python
 headshot: /images/speakers/jacob_BW.jpg
 track: 2
-timeslot: "1:45"
+timeslot: "13:45"
 date: 2020-09-09
 day: weds
 type: Talk

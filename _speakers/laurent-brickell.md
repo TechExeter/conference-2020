@@ -6,7 +6,7 @@ company: Organic
 talk-title: The Future of Natural Search
 headshot: /images/speakers/laurent_BW.jpg
 track: 2
-timeslot: "1:45"
+timeslot: "13:45"
 date: 2020-09-10
 day: thurs
 type: Panel - SEO trends you cannot afford to miss

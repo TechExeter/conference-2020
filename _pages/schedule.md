@@ -8,57 +8,115 @@ header:
 #  image: /assets/images/Tech-Exeter-2018-365.jpg
 ---
 {% assign scheduleSortedWeds = site.speakers | where:"day","weds" | concat: site.data.weds-schedule | sort:"track" | sort:"timeslot" %}
-{% assign scheduleSortedThurs = site.speakers | where:"day","thurs" | concat: site.data.weds-schedule | sort:"track" | sort:"timeslot" %}
+{% assign scheduleSortedThurs = site.speakers | where:"day","thurs" | concat: site.data.thurs-schedule | sort:"track" | sort:"timeslot" %}
 
 {% include header.html %}
 
 <div id="main" class="wrapper style1">
 
 <style type="text/css">
-  #schedule {
 
-    margin:1em 0em 2em;
-    box-shadow:0px 0px 10px #000;
+  .schedule-wrap {
+      margin:1em 0em 2em;
+      box-shadow:0px 0px 10px #000;
+  }
+  .schedule-wrap h1 {
+    font-size: 2rem;
+    background-color: #e44c65;
+    padding: 0.5em 0.25em;
+    margin:0px;
+    border-top: 4px solid rgba(39,40,51,0.965);
+    border-right: 4px solid rgba(39,40,51,0.965);
+    border-left: 4px solid rgba(39,40,51,0.965);
+  }
+  #schedule {
     padding:0.25em;
     display: grid;
     grid-gap: 0.2em;
     gap:0.2em;
     grid-template-areas:
-      "t-0845 t123-0845 t123-0845"
       "thead t1head t2head"
       "t-0900 t123-0900 t123-0900"
-      "t-0915 t123-0915 t123-0915"
+      "t-0915 t1-0915 t123-0915"
       "t-0930 t1-0930 t2-0930"
       "t-0945 t1-0930 t2-0930"
       "t-1000 t123-1000 t123-1000"
-      "t-1015 t1-1000 t2-1000"
+      "t-1015 t123-1000 t123-1000"
       "t-1030 t1-1030 t2-1030"
       "t-1045 t1-1030 t2-1030"
       "t-1100 t1-1030 t2-1030"
       "t-1115 t1-1030 t2-1030"
       "t-1130 t123-1130 t123-1130"
-      "t-1145 t1-1145 t2-1145"
+      "t-1145 t123-1130 t123-1130"
       "t-1200 t1-1200 t2-1200"
-      "t-1215 t1-1215 t2-1200"
-      "t-1230 t1-1230 t2-1230"
-      "t-1245 t1-1245 t2-1245"
+      "t-1215 t1-1200 t2-1200"
+      "t-1230 t1-1200 t2-1200"
+      "t-1245 t1-1200 t2-1200"
       "t-1300 t123-1300 t123-1300"
-      "t-1315 t123-1315 t123-1315"
+      "t-1315 t123-1300 t123-1300"
       "t-1330 t123-1330 t123-1330"
-      "t-1345 t123-1345 t123-1345"
-      "t-1400 t1-1400 t2-1400"
-      "t-1415 t1-1415 t2-1415"
-      "t-1430 t1-1430 t2-1430"
-      "t-1445 t1-1445 t2-1430"
+      "t-1345 t1-1345 t2-1345"
+      "t-1400 t1-1345 t2-1345"
+      "t-1415 t1-1345 t2-1345"
+      "t-1430 t1-1345 t2-1345"
+      "t-1445 t1-1445 t2-1445"
       "t-1500 t1-1500 t2-1500"
-      "t-1515 t1-1515 t2-1515"
+      "t-1515 t1-1515 t2-1500"
       "t-1530 t1-1530 t2-1530"
-      "t-1545 t1-1545 t2-1545"
+      "t-1545 t1-1545 t2-1530"
       "t-1600 t123-1600 t123-1600"
       "t-1615 t1-1615 t2-1615"
-      "t-1630 t1-1630 t2-1630"
-      "t-1645 t1-1645 t2-1645"
-      "t-1700 t123-1700 t123-1700"
+      "t-1630 t1-1615 t2-1615"
+      "t-1645 t1-1615 t2-1615"
+      "t-1700 t1-1615 t2-1615"
+      "t-1715 t123-1715 t123-1715"
+      "t-1730 t123-1730 t123-1730"
+      "t-1745 t123-1745 t123-1745"
+      "t-1800 t123-1800 t123-1800"
+      ". t- t- ";
+  }
+  
+  #schedule.thursday {
+
+    padding:0.25em;
+    display: grid;
+    grid-gap: 0.2em;
+    gap:0.2em;
+    grid-template-areas:
+      "thead t1head t2head"
+      "t-0900 t123-0900 t123-0900"
+      "t-0915 t1-0915 t123-0915"
+      "t-0930 t1-0930 t2-0930"
+      "t-0945 t1-0930 t2-0930"
+      "t-1000 t123-1000 t123-1000"
+      "t-1015 t123-1000 t123-1000"
+      "t-1030 t1-1030 t2-1030"
+      "t-1045 t1-1030 t2-1030"
+      "t-1100 t1-1030 t2-1030"
+      "t-1115 t1-1030 t2-1030"
+      "t-1130 t123-1130 t123-1130"
+      "t-1145 t123-1130 t123-1130"
+      "t-1200 t1-1200 t2-1200"
+      "t-1215 t1-1200 t2-1200"
+      "t-1230 t1-1200 t2-1200"
+      "t-1245 t1-1200 t2-1200"
+      "t-1300 t123-1300 t123-1300"
+      "t-1315 t123-1300 t123-1300"
+      "t-1330 t123-1330 t123-1330"
+      "t-1345 t1-1345 t2-1345"
+      "t-1400 t1-1345 t2-1345"
+      "t-1415 t1-1345 t2-1345"
+      "t-1430 t1-1345 t2-1345"
+      "t-1445 t1-1445 t2-1445"
+      "t-1500 t1-1500 t2-1500"
+      "t-1515 t1-1500 t2-1500"
+      "t-1530 t1-1500 t2-1530"
+      "t-1545 t1-1500 t2-1530"
+      "t-1600 t123-1600 t123-1600"
+      "t-1615 t1-1615 t2-1615"
+      "t-1630 t1-1615 t2-1615"
+      "t-1645 t1-1615 t2-1615"
+      "t-1700 t1-1615 t123-1700"
       "t-1715 t123-1715 t123-1715"
       "t-1730 t123-1730 t123-1730"
       "t-1745 t123-1745 t123-1745"
@@ -70,6 +128,9 @@ header:
   }
 
   @media screen and (max-width: 40em) {
+      .schedule-wrap h1 {
+        border:0px;
+      }
       #schedule {
 
         box-shadow:none;
@@ -118,13 +179,13 @@ header:
 
 <div class="container">
 
-<h1 style="margin-top:1em;">Wednesday Schedule - Tech Exeter</h1>
-
+<div class="schedule-wrap">
+<h1 id="weds">Wednesday Schedule - Tech Exeter</h1>
 <div id="schedule">
 
   {% for speaker in scheduleSortedWeds %}
   {% if speaker.type != "Track Host" and speaker.track != "Workshop" %}
-    <div class="item {{ speaker.type }} t{{ speaker.track }}" style="grid-area: t{{ speaker.track }}-{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }};" {% if speaker.type == "time" %} id="time_{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }}" {% endif %}>
+    <div class="item {{ speaker.type }} t{{ speaker.track }}" style="grid-area: t{{ speaker.track }}-{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }};" {% if speaker.type == "time" %} id="weds_time_{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }}" {% endif %}>
     <div class="small-time">{{ speaker.timeslot }} </div>
     {% if speaker.url %}
     <a href="{{ speaker.url }}">
@@ -152,15 +213,16 @@ header:
   </div>
 
 </div>
+</div>
 
 
-<h1 style="margin-top:1em;">Thursday Schedule - Digital Exeter</h1>
-
-<div id="schedule">
+<div class="schedule-wrap">
+<h1 id="thurs">Thursday Schedule - Digital Exeter</h1>
+<div id="schedule" class="thursday">
 
   {% for speaker in scheduleSortedThurs %}
   {% if speaker.type != "Track Host" and speaker.track != "Workshop" %}
-    <div class="item {{ speaker.type }} t{{ speaker.track }}" style="grid-area: t{{ speaker.track }}-{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }};" {% if speaker.type == "time" %} id="time_{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }}" {% endif %}>
+    <div class="item {{ speaker.type }} t{{ speaker.track }}" style="grid-area: t{{ speaker.track }}-{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }};" {% if speaker.type == "time" %} id="thurs_time_{{ speaker.timeslot | replace: ".", ""  | replace: ":", "" }}" {% endif %}>
     <div class="small-time">{{ speaker.timeslot }} </div>
     {% if speaker.url %}
     <a href="{{ speaker.url }}">
@@ -187,6 +249,7 @@ header:
   SESSIONS AREA
   </div>
 
+</div>
 </div>
 
 <div style="text-align:center;"><em>* Schedule is subject to change</em></div>

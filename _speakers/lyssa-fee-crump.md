@@ -6,7 +6,7 @@ company: Kraken Marketing
 talk-title: Data Driven Design and Other Analytical Marketing Magic
 headshot: /images/speakers/lyssa_BW.jpg
 track: 1
-timeslot: "1:45"
+timeslot: "13:45"
 date: 2020-09-10
 day: thurs
 type: Talk

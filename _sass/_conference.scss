@@ -187,11 +187,7 @@ section.bronze {
 
 
 #schedule {
-    background: url(/images/pic03.jpg);
-    background-repeat: repeat;
-    background-size: auto;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: rgba(39, 40, 51, 0.965);
     .item {
         padding:0.3em;
         &.head {
@@ -199,10 +195,22 @@ section.bronze {
             padding: 0.5em;
 
             &.t1 {
-                background-color:#e44c65;
+                // background-color:#e44c65;
+                
+                background: url(/images/track1bg.jpg);
+                background-repeat: repeat;
+                background-size: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
             }
             &.t2 {
-                background-color:#5480f1;
+                //background-color:#5480f1;
+                           
+                background: url(/images/track2bg.jpg);
+                background-repeat: repeat;
+                background-size: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
             }
             &.t3 {
                 background-color:#f88e21;
@@ -210,10 +218,22 @@ section.bronze {
         }
 
         &.t1 {
-            background-color:scale-color(#e44c65,$lightness: 20%);
+            // background-color:scale-color(#e44c65,$lightness: 20%);
+            
+            background: url(/images/track1bg.jpg);
+            background-repeat: repeat;
+            background-size: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         &.t2 {
-            background-color:scale-color(#5480f1,$lightness: 20%);
+            //background-color:scale-color(#5480f1,$lightness: 20%);
+            
+            background: url(/images/track2bg.jpg);
+            background-repeat: repeat;
+            background-size: auto;
+            background-size: cover;
+            background-repeat: no-repeat;
         }
         &.t3 {
             background-color:scale-color(#f88e21, $lightness: 20%);
@@ -227,13 +247,13 @@ section.bronze {
             font-size:1.1em;
         }
         .speaker {
-            color:#000;
+            color:#fff;
             text-align:left;
             max-width:auto;
             font-size:0.8em;
         }
         .type {
-            color:#888;
+            color:#e44c65;
             font-size:0.8em;
         }
 
@@ -248,8 +268,14 @@ section.bronze {
 
         &.break,
         &.lunch {
-            background: #39c088;
-            color:#fff;
+            /*background: #39c088;
+            color:#fff;*/
+                        
+                background: url(/images/pic04.jpg);
+                background-repeat: repeat;
+                background-size: auto;
+                background-size: cover;
+                background-repeat: no-repeat;
             padding:0.5em;
             h2 {
                 margin:0px;

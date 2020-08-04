@@ -6,7 +6,7 @@ company: Freelance
 talk-title: A first look at Deno
 headshot: /images/speakers/craig_BW.jpg
 track: 2
-timeslot: "3:00" 
+timeslot: "15:00" 
 date: 2020-09-09
 day: weds
 type: Talk
