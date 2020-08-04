@@ -1,5 +1,4 @@
 ---
-published: false
 name: Carly Britton
 pronoun: She/Her
 title: Head of Client Services
@@ -20,9 +19,9 @@ takeaways:
  - female representation within senior tech management
 ---
 
-<p>Do you feel that your career has come to a standstill? Do you have big dreams but no idea how to achieve them? Do you find career progression over-whelming?
+<p>Do you feel that your career has come to a standstill? Do you have big dreams but no idea how to achieve them? Do you find career progression overwhelming?
 Overcome those internal demons and join Carly for this inspiring and creative talk about how to climb the career ladder to reach your goals in a realistic and productive way.
-This talk will show you how to not worry about the long-term plan and instead focus on the small steps that will get you there. Using the SMART formula Carly has first-hand experience of working her way up her own career ladder in technology.
+This talk will show you how to not worry about the long-term plan and instead focus on the small steps that will get you there. Using the SMART formula, Carly has first-hand experience of working her way up her own career ladder in technology.
 Join this talk to discover how you can use the SMART formula in your own career path to achieve your goals.
 </p>
 

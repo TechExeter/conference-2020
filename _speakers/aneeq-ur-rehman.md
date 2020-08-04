@@ -17,7 +17,7 @@ twitter:
 # linkedin: 
 takeaways:
  - understanding how Deep Learning has revolutionised traditional computer vision
- - knowledge of understanding requirements and key processes in a Deep Learning based custom object detection framework
+ - knowledge of requirements and key processes in a Deep Learning based custom object detection framework
  - understand how to quickly build and deploy your own custom object detector with few lines of codes and some resources for additional help
 ---
 

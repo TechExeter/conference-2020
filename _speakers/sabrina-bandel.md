@@ -1,7 +1,7 @@
 ---
 name: Sabrina Bandel
 pronoun: She/Her
-title: SEO Executive
+title: SEO Account Executive
 company: Neo Media World
 talk-title: Creating A Strategy to Win Long-Tail Queries
 headshot: /images/speakers/sabrina_BW.jpg
@@ -30,7 +30,7 @@ to provide actionable insights to find the right opportunities and tips to captu
 
 <h3>Bio</h3>
 <p>Sabrina comes from a digital media background, focusing specifically in SEO (Search Engine 
-Optimisation) and has worked on clients in various verticles, including B2B and B2C. I am naturally 
+Optimisation) and has worked on clients in various verticles, including B2B and B2C. She is naturally 
 intrigued by the technical aspects of SEO and unifying the search space to give users a seamless user 
-experience. I take interest in finding the most relevant and actionable solutions for clients and this 
-has led to me innovate and create a product.</p>
+experience. She also takes interest in finding the most relevant and actionable solutions for clients and this 
+has led her to innovate and create a product.</p>
