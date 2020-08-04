@@ -27,7 +27,7 @@ spend. Real-life examples of wins and pitfalls.</p>
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>Jaye Cowle is founder of one of the UK's leading digital advertising agency, Launch Online, which 
+<p>Jaye Cowle is founder of one of the UK's leading digital advertising agencies, Launch Online, which 
 is a Google Premier Partner recognised as one of the top 3% of Google accredited UK agencies. Jaye is 
 also a regular speaker and business mentor drawing on her experience as a successful business owner, 
 digital marketing specialist and past travel marketing director.</p>

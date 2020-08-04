@@ -31,6 +31,6 @@ In this talk, Craig discusses why Deno was released, how it differs from Node.js
 <h3>Bio</h3>
 <p>Craig is a freelance developer, author, and speaker who's been working on the web a long, long time.
 
-He's consulted for companies, authored some books, delivered video courses, and written a ridiculous number or tutorials for SitePoint.com and others.
+He's consulted for companies, authored some books, delivered video courses, and written a ridiculous number of tutorials for SitePoint.com and others.
 
 For the past few years, he's been banging on about web tools and performance to anyone who will listen.</p>

@@ -1,7 +1,7 @@
 ---
 name: Robin Mudge
 pronoun: He/Him
-title: Filmmaker, video artist and Interactive TV producer
+title: Filmmaker, Video Artist and Interactive TV producer
 company: 
 talk-title: OneShot Virtual reality storytelling for documentary production
 headshot: /images/speakers/robin_BW.jpg
@@ -20,7 +20,7 @@ takeaways:
  - a framework that helps introduce some traditional film grammar into VR filmmaking/storytelling and question whether it’s worth shooting a story in VR in the first place
 ---
 
-<p>With past reports suggesting that VR could generate $70 billion by 20201, it’s not surprising that major media companies started publishing VR stories as fast as they could. However, those predictions do not seem to have materialised, and the initial rush of venture capital has significantly slowed with much of it being diverted to faster growing and more profitable areas. 
+<p>With past reports suggesting that VR could generate $70 billion by 2020, it’s not surprising that major media companies started publishing VR stories as fast as they could. However, those predictions do not seem to have materialised, and the initial rush of venture capital has significantly slowed with much of it being diverted to faster growing and more profitable areas. 
 
 This talk introduces the process of The OneShot cinematic VR production process. It allows filmmakers to use some traditional film grammar to help construct meaningful narrative, while also providing an effective immersive experience. It also brings a dramatic reduction in time and budget to cinematic VR production, adding only one additional step to the traditional filmmaking workflow.</p>
 
