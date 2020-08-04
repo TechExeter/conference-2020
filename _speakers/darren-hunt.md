@@ -1,5 +1,4 @@
 ---
-published: false
 name: Darren Hunt
 pronoun: He/Him
 title: UX Designer 
@@ -22,11 +21,11 @@ takeaways:
 ---
 
 <p>Q&A session with an expert panel. Ask our panel any questions you may have about all areas of user experience, such as: Why should we user test? What is the best approach? What's the importance of hiring the right participants?
- 
-Paul Gooding, Founder and CEO of People for Research - participant recruitment specialists in Bristol; 
-Darren Hunt, UX Designer, Founder and Managing Director of u.exe - Exeter’s first user test lab; 
-Ali Carmichael, Founder and Managing Director of Bournemouth’s Experience UX agency specialising in UX research.
-</p>
+ <p>the panel so far: </p>
+<ol>
+<li> Paul Gooding, Founder and CEO of People for Research - participant recruitment specialists in Bristol </li>
+<li>Darren Hunt, UX Designer, Founder and Managing Director of u.exe - Exeter’s first user test lab </li>
+ <li>Ali Carmichael, Founder and Managing Director of Bournemouth’s Experience UX agency specialising in UX research.</li>
 
 {% include speakers-takeaways.html %}
 

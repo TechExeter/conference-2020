@@ -19,10 +19,8 @@ takeaways:
  - understand how to quickly build and deploy your own custom object detector with few lines of codes and some resources for additional help
 ---
 
-<p>In this talk, we provide an overview of deep learning-based object detection techniques. Our review begins with the revolution 
-of deep learning algorithms and how they have added value to traditional computer vision based object detection techniques. We 
-explore different deep learning based object detection architectures and frameworks. In addition to this, we also review the 
-computational requirements for deep learning. Moreover, we also look at  computer vision datasets for deep learning based object detection. 
+<p>In this talk, we provide an overview of deep learning-based object detection techniques. Our review begins with the revolution of deep learning algorithms and how they have added value to traditional computer vision based object detection techniques. We 
+explore different deep learning based object detection architectures and frameworks. In addition to this, we also review the computational requirements for deep learning. Moreover, we also look at  computer vision datasets for deep learning based object detection. 
 Finally we demonstrate how to build your own custom object detector in real time using python libraries with a few lines of code.</p>
 
 {% include speakers-takeaways.html %}

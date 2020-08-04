@@ -24,4 +24,4 @@ takeaways:
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p></p>
+<p>I have worked in both internally and externally facing software development teams and currently deliver ongoing development and operational support to a number of Met Office services that provide critical-to-life information to both the public and private sector organisations. My day-to-day is writing, building and deploying maintainable microservices using AWS serverless technologies. Alongside this I am passionate about automating processes and adopting working practices that will increase the team’s delivery efficiency without sacrificing quality of service.</p>
