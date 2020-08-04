@@ -27,6 +27,5 @@ This talk introduces the process of The OneShot cinematic VR production process.
 {% include speakers-takeaways.html %}
 
 <h3>Bio</h3>
-<p>Video artist, practitioner in interactive TV and virtual reality storytelling. Mudge worked at the BBC for 18 years, as an award-winning documentary programme maker and new media specialist. He directed hundreds of programmes and created several groundbreaking new media projects, including the first interactive TV programme to win an RTS award of excellence. 
-
-Mudge went on to become a global specialist in new media and digital strategist, working for Granada TV, Pearson PLC and the Corporation for Public Broadcasting in the US. He became a professor of film and interactive television at American University in Washington, D.C., which led to his current activities in developing storytelling techniques in VR documentary production.</p>
+<p>Video artist, practitioner in interactive TV and virtual reality storytelling. Mudge worked at the BBC for 18 years, as an award-winning documentary programme maker and new media specialist. He directed hundreds of programmes and created several groundbreaking new media projects, including the first interactive TV programme to win an RTS award of excellence.</p>
+<p>Mudge went on to become a global specialist in new media and digital strategist, working for Granada TV, Pearson PLC and the Corporation for Public Broadcasting in the US. He became a professor of film and interactive television at American University in Washington, D.C., which led to his current activities in developing storytelling techniques in VR documentary production.</p>
