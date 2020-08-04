@@ -20,7 +20,7 @@ takeaways:
  - a metric butt load of GIFS
 ---
 
-<p>John Wanamaker said: "Half the money I spend on advertising is wasted; the trouble is I don't know which half.”
+<p>John Wanamaker said: "Half the money I spend on advertising is wasted; the trouble is I don't know which half.”<br/>
 People still refer to this quote as though it was current - but this was said back in 1922! Nearly 100 years ago. This is an antiquated way of looking at marketing. It is so easy for brands to get stuck in a cycle of creating content that they love. That they think looks and sounds great. That they think represents their brand. But does it work?</p>
 <p>Data-driven marketing helps businesses level up. There are tools and strategies to help you make informed decisions - based on how your customers / users interact with your creative. But be warned - you might not always like the answers. Data driven marketing is the only way forward - it should be a fundamental part of your business strategy. Stop guessing if your creativity is converting, find out for sure.
 </p>

@@ -30,5 +30,6 @@ Join this talk to discover how you can use the SMART formula in your own career 
 <h3>Bio</h3>
 <p>Carly’s career at VUALTO started 8 years ago. She joined the company when it was a startup as a Webcast Engineer. Carly quickly found a passion for developing client relationships and within 8 years she has developed and manages four key teams: Managed Clients, Technical Support, Network Operations Centre (NOC) and Quality Assurance (QA). Carly has built great relationships with her colleagues and is a firm believer that it takes a happy team to run a successful business.</p>
 <p>Carly is extremely passionate about encouraging girls and women to consider careers in technology. She is a STEM Ambassador and regularly gets involved with local STEM events. She also visits schools and shares her journey into technology with career talks and workshops at STEM clubs. Carly founded #GIRLCODE (with the support of VUALTO) which is a free coding class for girls aged 8-14 who want to learn to code in a fun and friendly environment.
-Carly has recently won two awards: Women in IT Awards Advocate of the Year 2020
-and TechWomen100 Awards 2019.</p>
+Carly has recently won two awards:</p>
+<p>Women in IT Awards Advocate of the Year 2020</p>
+<p>TechWomen100 Awards 2019.</p>
