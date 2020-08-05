@@ -3,7 +3,7 @@ name: Carly Britton
 pronoun: She/Her
 title: Head of Client Services
 company: Vualto
-talk-title: Building Revenue Products based on Search Intent
+talk-title: Climb the career ladder, one SMART step at a time
 headshot: /images/speakers/carly_BW.jpg
 track: 
 timeslot: 
