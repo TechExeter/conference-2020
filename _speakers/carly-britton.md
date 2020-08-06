@@ -5,10 +5,10 @@ title: Head of Client Services
 company: Vualto
 talk-title: Climb the career ladder, one SMART step at a time
 headshot: /images/speakers/carly_BW.jpg
-track: 
-timeslot: 
+track: 1
+timeslot: "15:35"
 date: 2020-09-10
-type: 
+type: Talk
 level: 1
 twitter:
  - girlcodesw
