@@ -3,7 +3,7 @@ name: Darren Hunt
 pronoun: He/Him
 title: UX Designer 
 company: u.exe
-talk-title: Importance of knowing your users and testing products
+talk-title: How can you find out the driving factors behind your customers’ decisions?
 headshot: /images/speakers/darren_BW.jpg
 track: "2"
 timeslot: "16:15"
