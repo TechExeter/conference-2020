@@ -16,18 +16,27 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
 
 <div class="speakers">
 
-  <h2>Keynote</h2>
+  <h2>Keynotes</h2>
+  <div class="grid-flex">
   {% for speaker in speakersSorted %}
     {% if speaker.name == "Nicola Whiting" %}
-    <div class="grid-flex">
       <div class="speaker">
         <a href="{{ speaker.url }}"><img class="circle" src="{{speaker.headshot}}" alt="Headshot of {{ speaker.name }}"/></a>
         <h2><a href="{{ speaker.url }}">{{ speaker.name }}</a></h2>
         <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %} <br/>  {{ speaker.company }} {% endif %}</p>
       </div>
-    </div>
     {% endif %}
   {% endfor %}
+    {% for speaker in speakersSorted %}
+    {% if speaker.name == "Niki Mosier"%}
+      <div class="speaker">
+        <a href="{{ speaker.url }}"><img class="circle" src="{{speaker.headshot}}" alt="Headshot of {{ speaker.name }}"/></a>
+        <h2><a href="{{ speaker.url }}">{{ speaker.name }}</a></h2>
+        <p>{% if speaker.name != speaker.title %}<strong>{{ speaker.title }}</strong>{% endif %} {% if speaker.company %} <br/>  {{ speaker.company }} {% endif %}</p>
+      </div>
+    {% endif %}
+  {% endfor %}
+    </div>
 
   <!--
   <h2>Online Hosts</h2>
@@ -47,7 +56,7 @@ excerpt: Our speakers for the TechExeter / Digital Exeter annual conference on 9
   <h2>Speakers</h2>
   <div class="grid-flex">
   {% for speaker in speakersSorted %}
-  {% if speaker.name <>"Nicola Whiting" and speaker.type <> "Track Host" %}
+  {% if speaker.name <>"Nicola Whiting" and speaker.name <> "Niki Mosier" and speaker.type <> "Track Host" %}
     {% if speaker.headshot %} 
     <div class="speaker">
         <a href="{{ speaker.url }}"><img class="circle" src="{{speaker.headshot}}" alt="Headshot of {{ speaker.name }}"/></a>
