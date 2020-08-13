@@ -2466,6 +2466,10 @@
 			height: 100%;
 			z-index: 1;
 		}
+		.image.nooverlay:before {
+			background-image: none;
+			display: none;
+		}
 
 		.image img {
 			border-radius: 4px;
