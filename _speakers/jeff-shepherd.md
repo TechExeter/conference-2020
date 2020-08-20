@@ -11,8 +11,6 @@ date: 2020-09-09
 day: weds
 type: Talk
 level: 1
-twitter:
- - 
 # linkedin: 
 takeaways:
  - knowledge of how to be more efficient in product delivery
