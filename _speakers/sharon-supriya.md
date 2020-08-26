@@ -1,6 +1,5 @@
 ---
 name: Sharon Supriya
-names: Sharon Supriya, Laurent Brickell & Sabrina Bandel
 pronoun: She/Her
 title: Head of Search Content Business 
 company: Times Internet
