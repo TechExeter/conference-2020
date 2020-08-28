@@ -12,7 +12,7 @@ date: 2020-09-10
 type: Talk
 level: 1
 twitter:
- - girlcodesw
+ - digitelle_blog
 # linkedin: 
 takeaways:
  - career inspiration

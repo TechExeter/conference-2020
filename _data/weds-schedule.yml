@@ -135,8 +135,12 @@
    type: "time"
  - timeslot: "14.45"
    track: ""
-   talk-title: "14.45"      
+   talk-title: "14.45"
    type: "time"
+ - timeslot: "14.45"
+   track: "1"
+   talk-title: "Light, Sound & Intelligent Spaces (an interview)"      
+   type: "South West Creative Technology Network"
 
  - timeslot: "15.00"
    track: ""
