@@ -9,7 +9,7 @@ track: "2"
 timeslot: "15:00"
 date: 2020-09-10
 day: thurs
-type: Ask Me Anything
+type: Talk
 level: 2
 twitter:
  - 
