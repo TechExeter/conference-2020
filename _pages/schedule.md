@@ -12,6 +12,7 @@ header:
 
 {% include header.html %}
 
+
 <div id="main" class="wrapper style1">
 
 <style type="text/css">
@@ -180,6 +181,7 @@ header:
 </style>
 
 <div class="container">
+<div style="text-align:center;">Times below are London, UK. BST (GMT +1)</div>
 
 <div class="schedule-wrap">
 <h1 id="weds">Wednesday Schedule - Tech Exeter</h1>
